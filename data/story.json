@@ -1,0 +1,182 @@
+[
+  {
+    "level": 1,
+    "arc": 1,
+    "location": "São Paulo — Aeroporto de Guarulhos",
+    "title": "Chegada",
+    "vignette": "Você aterrissa no Aeroporto Internacional de Guarulhos. As portas se abrem e o calor úmido de São Paulo te abraça. Uma placa diz 'Bem-vindo ao Brasil'. Você respira fundo — a jornada começa agora.",
+    "vignette_en": "You land at Guarulhos International Airport. The doors open and São Paulo's humid heat wraps around you. A sign reads 'Welcome to Brazil'. You take a deep breath — the journey begins now.",
+    "image_emoji": "✈️"
+  },
+  {
+    "level": 2,
+    "arc": 1,
+    "location": "São Paulo — Metrô e Centro",
+    "title": "A Cidade",
+    "vignette": "Você pega o metrô pela primeira vez. As pessoas falam rápido e você tenta entender. Um senhor te ajuda a comprar a passagem. 'Obrigado!' você diz. Ele sorri. Sua primeira conversa em português.",
+    "vignette_en": "You take the metro for the first time. People speak fast and you try to understand. An older man helps you buy a ticket. 'Thank you!' you say. He smiles. Your first conversation in Portuguese.",
+    "image_emoji": "🚇"
+  },
+  {
+    "level": 3,
+    "arc": 1,
+    "location": "São Paulo — A Hospedagem",
+    "title": "O Hostel",
+    "vignette": "Você encontra seu hostel no bairro da Vila Madalena. A recepcionista chama Juliana e fala devagar para você entender. Ela te mostra o quarto, o banheiro e a cozinha. Você já sente que está em casa.",
+    "vignette_en": "You find your hostel in the Vila Madalena neighborhood. The receptionist is called Juliana and speaks slowly so you can understand. She shows you the room, the bathroom and the kitchen. You already feel at home.",
+    "image_emoji": "🏠"
+  },
+  {
+    "level": 4,
+    "arc": 1,
+    "location": "São Paulo — Mercado e Rua",
+    "title": "No Mercado",
+    "vignette": "Na feira, um vendedor grita 'Leva, leva! Baratinho!' Você compra manga, abacaxi e água de coco. No pagamento, você pergunta o preço e entende a resposta. Pequena vitória, grande alegria.",
+    "vignette_en": "At the market, a vendor shouts 'Buy it, buy it! Very cheap!' You buy mango, pineapple and coconut water. At checkout, you ask the price and understand the answer. Small victory, great joy.",
+    "image_emoji": "🥭"
+  },
+  {
+    "level": 5,
+    "arc": 2,
+    "location": "Rio de Janeiro — Chegada à Cidade Maravilhosa",
+    "title": "Carioca",
+    "vignette": "O ônibus chega ao Rio de Janeiro ao amanhecer. O Cristo Redentor aparece entre as nuvens. Uma garota no banco ao lado sorri e diz: 'Primeira vez no Rio?' Você responde: 'Sim, e já estou apaixonado.'",
+    "vignette_en": "The bus arrives in Rio de Janeiro at dawn. Christ the Redeemer appears between the clouds. A girl in the seat next to you smiles and says: 'First time in Rio?' You reply: 'Yes, and I'm already in love.'",
+    "image_emoji": "🌅"
+  },
+  {
+    "level": 6,
+    "arc": 2,
+    "location": "Rio de Janeiro — A Praia",
+    "title": "Ipanema",
+    "vignette": "Na praia de Ipanema você conhece Bruno e Larissa, dois cariocas que ensinam você a jogar frescobol. Eles falam com sotaque musical, trocando o 's' por 'sh'. 'Isso é o jeito carioca de falar', diz Bruno rindo.",
+    "vignette_en": "On Ipanema beach you meet Bruno and Larissa, two cariocas who teach you how to play frescobol. They speak with a musical accent, changing 's' to 'sh'. 'That's the carioca way of talking', says Bruno laughing.",
+    "image_emoji": "🏖️"
+  },
+  {
+    "level": 7,
+    "arc": 2,
+    "location": "Rio de Janeiro — Vida Social",
+    "title": "O Boteco",
+    "vignette": "À noite, Bruno te leva a um boteco em Santa Teresa. Você toma uma cerveja gelada e come pastéis. As pessoas cantam samba ao fundo. Você tenta contar uma piada em português. Todo mundo ri — provavelmente da sua pronúncia.",
+    "vignette_en": "At night, Bruno takes you to a boteco in Santa Teresa. You have an ice-cold beer and eat pastéis. People sing samba in the background. You try to tell a joke in Portuguese. Everyone laughs — probably at your pronunciation.",
+    "image_emoji": "🍺"
+  },
+  {
+    "level": 8,
+    "arc": 2,
+    "location": "Rio de Janeiro — Despedida",
+    "title": "Saudade",
+    "vignette": "Na manhã da partida, Larissa te ensina uma palavra: 'saudade'. 'Não existe em inglês', ela diz. 'É a falta de algo que você ama.' Você já sente saudade do Rio e ainda nem saiu.",
+    "vignette_en": "On the morning of departure, Larissa teaches you a word: 'saudade'. 'It doesn't exist in English', she says. 'It's the longing for something you love.' You already feel saudade for Rio and you haven't even left.",
+    "image_emoji": "💙"
+  },
+  {
+    "level": 9,
+    "arc": 3,
+    "location": "Minas Gerais — Belo Horizonte",
+    "title": "A Família",
+    "vignette": "Em Belo Horizonte você fica na casa da família Oliveira. A matriarca, Dona Tereza, prepara pão de queijo fresquinho toda manhã. 'Senta, senta! Vai comer!' ela diz, sem aceitar negativa.",
+    "vignette_en": "In Belo Horizonte you stay with the Oliveira family. The matriarch, Dona Tereza, makes fresh pão de queijo every morning. 'Sit down, sit down! Come eat!' she says, accepting no refusals.",
+    "image_emoji": "🧀"
+  },
+  {
+    "level": 10,
+    "arc": 3,
+    "location": "Minas Gerais — Interior",
+    "title": "O Interior",
+    "vignette": "O filho mais velho, Pedro, te leva ao interior de Minas. As estradas são de terra, o céu é imenso. Vocês falam sobre família, trabalho e sonhos. Você percebe que já pensa em português às vezes.",
+    "vignette_en": "The eldest son, Pedro, takes you to the Minas countryside. The roads are dirt, the sky is vast. You talk about family, work and dreams. You realize you sometimes think in Portuguese now.",
+    "image_emoji": "🌄"
+  },
+  {
+    "level": 11,
+    "arc": 3,
+    "location": "Minas Gerais — Tradições",
+    "title": "Festa Junina",
+    "vignette": "A família te convida para uma Festa Junina. Tem quadrilha, fogueira e muita comida típica. Uma criança te puxa para dançar. Você dança mal mas com alegria. 'Você é brasileiro por dentro', diz Dona Tereza.",
+    "vignette_en": "The family invites you to a Festa Junina. There's quadrilha dancing, a bonfire and lots of traditional food. A child pulls you to dance. You dance badly but joyfully. 'You are Brazilian on the inside', says Dona Tereza.",
+    "image_emoji": "🎉"
+  },
+  {
+    "level": 12,
+    "arc": 3,
+    "location": "Minas Gerais — Partida",
+    "title": "Raízes",
+    "vignette": "Na despedida, Dona Tereza te dá um pote de doce de leite e um abraço longo. 'Volta sempre', ela diz. Você promete. No ônibus, olha pela janela e entende que aprender uma língua é também aprender a amar um povo.",
+    "vignette_en": "At the farewell, Dona Tereza gives you a jar of doce de leite and a long hug. 'Come back always', she says. You promise. On the bus, you look out the window and understand that learning a language is also learning to love a people.",
+    "image_emoji": "🫙"
+  },
+  {
+    "level": 13,
+    "arc": 4,
+    "location": "Bahia — Salvador",
+    "title": "Axé",
+    "vignette": "Salvador é uma explosão de cores, ritmos e cheiros. No Pelourinho, tambores de candomblé ecoam pelas pedras coloniais. Uma baiana de acarajé te sorri: 'Bem-vindo à Bahia, meu bem.' O sotaque baiano é uma música.",
+    "vignette_en": "Salvador is an explosion of colors, rhythms and smells. In Pelourinho, candomblé drums echo through colonial stones. An acarajé vendor smiles at you: 'Welcome to Bahia, my dear.' The Bahian accent is a music.",
+    "image_emoji": "🥁"
+  },
+  {
+    "level": 14,
+    "arc": 4,
+    "location": "Bahia — Cultura e História",
+    "title": "Raízes Africanas",
+    "vignette": "Você visita o Museu Afro-Brasileiro e aprende sobre as raízes africanas da língua portuguesa. Muitas palavras que você usa — 'moleque', 'samba', 'caçula' — vêm do iorubá e do quimbundo. A língua carrega toda uma história.",
+    "vignette_en": "You visit the Afro-Brazilian Museum and learn about the African roots of the Portuguese language. Many words you use — 'moleque', 'samba', 'caçula' — come from Yoruba and Kimbundu. The language carries an entire history.",
+    "image_emoji": "🏛️"
+  },
+  {
+    "level": 15,
+    "arc": 4,
+    "location": "Bahia — O Mar",
+    "title": "Capoeira",
+    "vignette": "Na praia de Porto da Barra, você assiste a uma roda de capoeira. Um mestre te convida a entrar. Você tenta os primeiros movimentos desajeitadamente. 'Capoeira é diálogo', ele explica. 'Como a língua — você responde ao outro.'",
+    "vignette_en": "On Porto da Barra beach, you watch a capoeira circle. A master invites you in. You try the first moves awkwardly. 'Capoeira is dialogue', he explains. 'Like language — you respond to the other.'",
+    "image_emoji": "🤸"
+  },
+  {
+    "level": 16,
+    "arc": 4,
+    "location": "Bahia — Carnaval",
+    "title": "Trio Elétrico",
+    "vignette": "Você fica para o Carnaval. Um trio elétrico passa e a multidão explode. Você canta as músicas sem entender cada palavra — mas entende tudo. Nesse momento, você não é mais um estudante de português. Você simplesmente fala.",
+    "vignette_en": "You stay for Carnaval. A trio elétrico passes and the crowd explodes. You sing the songs without understanding every word — but you understand everything. In that moment, you are no longer a Portuguese student. You simply speak.",
+    "image_emoji": "🎊"
+  },
+  {
+    "level": 17,
+    "arc": 5,
+    "location": "Amazônia — Manaus",
+    "title": "O Rio Negro",
+    "vignette": "De avião, você sobrevoa a Amazônia. Uma floresta sem fim. Em Manaus, o Rio Negro e o Rio Solimões se encontram e não se misturam — dois rios, uma fronteira invisível. Como dois idiomas na sua mente, agora começando a fluir juntos.",
+    "vignette_en": "By plane, you fly over the Amazon. An endless forest. In Manaus, the Rio Negro and Solimões rivers meet but don't mix — two rivers, an invisible border. Like two languages in your mind, now beginning to flow together.",
+    "image_emoji": "🌿"
+  },
+  {
+    "level": 18,
+    "arc": 5,
+    "location": "Amazônia — Floresta",
+    "title": "A Floresta Fala",
+    "vignette": "Você entra na floresta com um guia ribeirinho chamado Raimundo. Ele te ensina os nomes das árvores, dos pássaros, dos ventos. 'A floresta tem uma língua própria', ele diz. 'Quem escuta, aprende.' Você escuta.",
+    "vignette_en": "You enter the forest with a riverside guide named Raimundo. He teaches you the names of trees, birds and winds. 'The forest has its own language', he says. 'Those who listen, learn.' You listen.",
+    "image_emoji": "🦜"
+  },
+  {
+    "level": 19,
+    "arc": 5,
+    "location": "Amazônia — Comunidade Ribeirinha",
+    "title": "O Povo",
+    "vignette": "Você passa dias em uma comunidade ribeirinha. As crianças te ensinam palavras em nheengatu, língua geral da Amazônia. Você percebe que o Brasil não é um país — é um continente de culturas, sotaques e histórias.",
+    "vignette_en": "You spend days in a riverside community. The children teach you words in nheengatu, the general language of the Amazon. You realize that Brazil is not a country — it is a continent of cultures, accents and stories.",
+    "image_emoji": "🛶"
+  },
+  {
+    "level": 20,
+    "arc": 5,
+    "location": "Amazônia — O Fim e o Começo",
+    "title": "Fluente",
+    "vignette": "Na última noite, sentado à beira do rio, você liga para casa e conta tudo em português. As palavras fluem naturais. Você não traduz mais — você pensa, sente e sonha em português. A jornada acabou. E também nunca vai acabar.",
+    "vignette_en": "On the last night, sitting by the river, you call home and tell everything in Portuguese. The words flow naturally. You no longer translate — you think, feel and dream in Portuguese. The journey is over. And it will also never end.",
+    "image_emoji": "🌟"
+  }
+]
