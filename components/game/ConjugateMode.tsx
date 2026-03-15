@@ -12,8 +12,8 @@ interface Props {
 }
 
 type Tense = 'perfeito' | 'imperfeito'
-const PRONOUNS = ['eu', 'tu', 'ele/ela', 'nós', 'vocês'] as const
-const PRONOUN_KEYS = ['eu', 'tu', 'ele', 'nos', 'vcs'] as const
+const PRONOUNS = ['eu', 'ele/ela', 'nós', 'vocês'] as const
+const PRONOUN_KEYS = ['eu', 'ele', 'nos', 'vcs'] as const
 
 export default function ConjugateMode({ word, onResult }: Props) {
   const [tense, setTense] = useState<Tense>('perfeito')
@@ -25,7 +25,7 @@ export default function ConjugateMode({ word, onResult }: Props) {
   useEffect(() => {
     const t: Tense = Math.random() > 0.5 ? 'perfeito' : 'imperfeito'
     setTense(t)
-    setPronounIndex(Math.floor(Math.random() * 5))
+    setPronounIndex(Math.floor(Math.random() * 4))
     setInput('')
     setSubmitted(false)
     setShowCard(false)

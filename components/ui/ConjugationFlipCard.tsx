@@ -14,8 +14,8 @@ interface Props {
 
 type Face = 'front' | 'perfeito' | 'imperfeito'
 
-const PRONOUNS = ['eu', 'tu', 'ele/ela', 'nós', 'vocês'] as const
-const PRONOUN_KEYS = ['eu', 'tu', 'ele', 'nos', 'vcs'] as const
+const PRONOUNS = ['eu', 'ele/ela', 'nós', 'vocês'] as const
+const PRONOUN_KEYS = ['eu', 'ele', 'nos', 'vcs'] as const
 
 export default function ConjugationFlipCard({ verb, verbEn, conjugations, highlight }: Props) {
   const [face, setFace] = useState<Face>(highlight ?? 'front')
