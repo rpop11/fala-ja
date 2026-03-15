@@ -42,7 +42,8 @@ export default function ConjugateMode({ word, onResult }: Props) {
     setSubmitted(true)
     const isCorrect = input.trim().toLowerCase() === correct.toLowerCase()
     if (!isCorrect) setShowCard(true)
-    setTimeout(() => onResult(isCorrect), isCorrect ? 800 : 2500)
+    // Auto-advance only on correct — wrong answers wait for user to tap "Got it"
+    if (isCorrect) setTimeout(() => onResult(true), 800)
   }
 
   const tenseLabel = tense === 'perfeito'
@@ -118,13 +119,13 @@ export default function ConjugateMode({ word, onResult }: Props) {
         )}
       </AnimatePresence>
 
-      {/* Full conjugation card (shown on wrong answer) */}
+      {/* Full conjugation card + Got it button (shown on wrong answer) */}
       <AnimatePresence>
         {showCard && word.conjugations && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="w-full"
+            className="w-full flex flex-col gap-4"
           >
             <ConjugationFlipCard
               verb={word.pt}
@@ -132,6 +133,13 @@ export default function ConjugateMode({ word, onResult }: Props) {
               conjugations={word.conjugations}
               highlight={tense}
             />
+            <motion.button
+              onClick={() => onResult(false)}
+              whileTap={{ scale: 0.97 }}
+              className="w-full bg-indigo-600 text-white font-bold py-4 rounded-2xl text-lg shadow"
+            >
+              Got it → Next
+            </motion.button>
           </motion.div>
         )}
       </AnimatePresence>
