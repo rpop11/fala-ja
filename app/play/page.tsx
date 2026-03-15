@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useGameStore } from '@/store/gameStore'
 import { buildSession, calcXpGain } from '@/lib/session'
-import { updateStrength, getNextReview } from '@/lib/srs'
+import { updateStrength, getNextReview, levelMasteryPercent } from '@/lib/srs'
 import { supabase } from '@/lib/supabase'
 import { Word, WordProgress, SessionWord } from '@/types'
 import FlashCard from '@/components/game/FlashCard'
@@ -24,7 +24,7 @@ export default function PlayPage() {
     player, wordProgress,
     sessionQueue, sessionIndex,
     sessionXP,
-    setSession, advanceSession,
+    setPlayer, setSession, advanceSession,
     addSessionXP, updateWordProgress,
     incrementConsecutive, resetConsecutive,
     consecutiveCorrect,
@@ -94,10 +94,26 @@ export default function PlayPage() {
         player_id: player.id,
       })
 
-      // Save XP
+      // Check if current level is now mastered → unlock next level
+      const latestProgress = [
+        ...wordProgress.filter(p => p.word_id !== updated.word_id),
+        updated,
+      ]
+      const levelWords = words.filter(w => w.level === player.current_level)
+      const mastery = levelMasteryPercent(latestProgress, levelWords.map(w => w.id))
+      const newLevel = mastery >= 75 && player.current_level < 20
+        ? player.current_level + 1
+        : player.current_level
+
       await supabase.from('players')
-        .update({ xp: player.xp + xp })
+        .update({ xp: player.xp + xp, current_level: newLevel })
         .eq('id', player.id)
+
+      if (newLevel !== player.current_level) {
+        setPlayer({ ...player, current_level: newLevel, xp: player.xp + xp })
+      } else {
+        setPlayer({ ...player, xp: player.xp + xp })
+      }
     }
 
     // Advance or finish

@@ -46,6 +46,6 @@ export function levelMasteryPercent(
   const levelProgress = progressList.filter(p =>
     wordIdsForLevel.includes(p.word_id)
   )
-  const mastered = levelProgress.filter(p => p.strength >= 4).length
+  const mastered = levelProgress.filter(p => p.strength >= 2).length
   return Math.round((mastered / wordIdsForLevel.length) * 100)
 }
