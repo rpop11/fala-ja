@@ -9718,5 +9718,2219 @@
         "vcs": "sonharão"
       }
     }
+  },
+  {
+    "id": 376,
+    "pt": "avô",
+    "en": "grandfather",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Meu avô me contava histórias do interior.",
+        "en": "My grandfather used to tell me stories from the countryside."
+      },
+      {
+        "pt": "O avô dela tem oitenta anos.",
+        "en": "Her grandfather is eighty years old."
+      }
+    ]
+  },
+  {
+    "id": 377,
+    "pt": "avó",
+    "en": "grandmother",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A avó faz o melhor pão de queijo do mundo.",
+        "en": "Grandma makes the best cheese bread in the world."
+      },
+      {
+        "pt": "Visitamos a avó todo domingo.",
+        "en": "We visit grandma every Sunday."
+      }
+    ]
+  },
+  {
+    "id": 378,
+    "pt": "tio",
+    "en": "uncle",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Meu tio mora em Belo Horizonte.",
+        "en": "My uncle lives in Belo Horizonte."
+      },
+      {
+        "pt": "O tio trouxe presentes para as crianças.",
+        "en": "The uncle brought gifts for the children."
+      }
+    ]
+  },
+  {
+    "id": 379,
+    "pt": "tia",
+    "en": "aunt",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A tia cozinha muito bem.",
+        "en": "My aunt cooks very well."
+      },
+      {
+        "pt": "Fui passar as férias na casa da tia.",
+        "en": "I went to spend the holidays at my aunt's house."
+      }
+    ]
+  },
+  {
+    "id": 380,
+    "pt": "primo",
+    "en": "cousin (male)",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Meu primo estuda medicina em Belo Horizonte.",
+        "en": "My cousin studies medicine in Belo Horizonte."
+      },
+      {
+        "pt": "Os primos se encontram nas reuniões de família.",
+        "en": "Cousins meet at family gatherings."
+      }
+    ]
+  },
+  {
+    "id": 381,
+    "pt": "prima",
+    "en": "cousin (female)",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Minha prima é professora de português.",
+        "en": "My cousin is a Portuguese teacher."
+      },
+      {
+        "pt": "A prima dela mora no exterior.",
+        "en": "Her cousin lives abroad."
+      }
+    ]
+  },
+  {
+    "id": 382,
+    "pt": "sobrinho",
+    "en": "nephew",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Meu sobrinho tem cinco anos.",
+        "en": "My nephew is five years old."
+      },
+      {
+        "pt": "Adoro brincar com meus sobrinhos.",
+        "en": "I love playing with my nephews."
+      }
+    ]
+  },
+  {
+    "id": 383,
+    "pt": "neto",
+    "en": "grandson / grandchild",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A avó ama os netos mais que tudo.",
+        "en": "Grandma loves her grandchildren more than anything."
+      },
+      {
+        "pt": "O neto mais velho tem dez anos.",
+        "en": "The eldest grandchild is ten years old."
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "pt": "reunião",
+    "en": "meeting / gathering",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A reunião de família é sempre no domingo.",
+        "en": "The family gathering is always on Sunday."
+      },
+      {
+        "pt": "Tenho uma reunião de trabalho às três.",
+        "en": "I have a work meeting at three."
+      }
+    ]
+  },
+  {
+    "id": 386,
+    "pt": "café da manhã",
+    "en": "breakfast",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "O café da manhã mineiro é farto e gostoso.",
+        "en": "The Minas Gerais breakfast is hearty and delicious."
+      },
+      {
+        "pt": "Tomo café da manhã cedo todo dia.",
+        "en": "I have breakfast early every day."
+      }
+    ]
+  },
+  {
+    "id": 387,
+    "pt": "pão de queijo",
+    "en": "cheese bread (Brazilian)",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Pão de queijo é a comida típica de Minas.",
+        "en": "Cheese bread is the typical food of Minas."
+      },
+      {
+        "pt": "Comi cinco pães de queijo de uma vez.",
+        "en": "I ate five cheese breads at once."
+      }
+    ]
+  },
+  {
+    "id": 388,
+    "pt": "queijo",
+    "en": "cheese",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "O queijo de Minas é famoso no Brasil.",
+        "en": "Minas cheese is famous in Brazil."
+      },
+      {
+        "pt": "Você gosta de queijo?",
+        "en": "Do you like cheese?"
+      }
+    ]
+  },
+  {
+    "id": 389,
+    "pt": "receita",
+    "en": "recipe",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A receita da vovó é segredo de família.",
+        "en": "Grandma's recipe is a family secret."
+      },
+      {
+        "pt": "Me passa a receita do bolo?",
+        "en": "Can you give me the cake recipe?"
+      }
+    ]
+  },
+  {
+    "id": 390,
+    "pt": "quintal",
+    "en": "backyard / yard",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "As crianças brincam no quintal.",
+        "en": "The children play in the backyard."
+      },
+      {
+        "pt": "Tem uma mangueira no quintal da vovó.",
+        "en": "There's a mango tree in grandma's backyard."
+      }
+    ]
+  },
+  {
+    "id": 391,
+    "pt": "roça",
+    "en": "farm / countryside / rural area",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "O avô cresceu na roça.",
+        "en": "Grandpa grew up in the countryside."
+      },
+      {
+        "pt": "Sinto saudade da vida na roça.",
+        "en": "I miss life in the countryside."
+      }
+    ]
+  },
+  {
+    "id": 392,
+    "pt": "sítio",
+    "en": "small farm / country house",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Passamos o fim de semana no sítio.",
+        "en": "We spent the weekend at the country house."
+      },
+      {
+        "pt": "O sítio da família fica no interior de Minas.",
+        "en": "The family farm is in the interior of Minas."
+      }
+    ]
+  },
+  {
+    "id": 393,
+    "pt": "costume",
+    "en": "custom / habit",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "É costume da família se reunir aos domingos.",
+        "en": "It's the family's custom to get together on Sundays."
+      },
+      {
+        "pt": "Cada lugar tem seus próprios costumes.",
+        "en": "Every place has its own customs."
+      }
+    ]
+  },
+  {
+    "id": 394,
+    "pt": "tradição",
+    "en": "tradition",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A tradição da feijoada é brasileira.",
+        "en": "The feijoada tradition is Brazilian."
+      },
+      {
+        "pt": "Vamos manter essa tradição viva.",
+        "en": "Let's keep this tradition alive."
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "pt": "herança",
+    "en": "heritage / inheritance",
+    "pos": "noun",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A cultura afro-brasileira é parte da herança do Brasil.",
+        "en": "Afro-Brazilian culture is part of Brazil's heritage."
+      },
+      {
+        "pt": "Essa receita é uma herança da avó.",
+        "en": "This recipe is a legacy from grandma."
+      }
+    ]
+  },
+  {
+    "id": 397,
+    "pt": "crescer",
+    "en": "to grow / to grow up",
+    "pos": "verb",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Cresci no interior de Minas.",
+        "en": "I grew up in the interior of Minas."
+      },
+      {
+        "pt": "As crianças crescem tão rápido.",
+        "en": "Children grow so fast."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "cresço",
+        "tu": "cresces",
+        "ele": "cresce",
+        "nos": "crescemos",
+        "vcs": "crescem"
+      },
+      "perfeito": {
+        "eu": "cresci",
+        "tu": "cresceste",
+        "ele": "cresceu",
+        "nos": "crescemos",
+        "vcs": "cresceram"
+      },
+      "imperfeito": {
+        "eu": "crescia",
+        "tu": "crescias",
+        "ele": "crescia",
+        "nos": "crescíamos",
+        "vcs": "cresciam"
+      },
+      "futuro": {
+        "eu": "crescerei",
+        "tu": "crescerás",
+        "ele": "crescerá",
+        "nos": "cresceremos",
+        "vcs": "crescerão"
+      }
+    }
+  },
+  {
+    "id": 398,
+    "pt": "nascer",
+    "en": "to be born",
+    "pos": "verb",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Nasci em Belo Horizonte.",
+        "en": "I was born in Belo Horizonte."
+      },
+      {
+        "pt": "O bebê nasceu em março.",
+        "en": "The baby was born in March."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "nasço",
+        "tu": "nasces",
+        "ele": "nasce",
+        "nos": "nascemos",
+        "vcs": "nascem"
+      },
+      "perfeito": {
+        "eu": "nasci",
+        "tu": "nasceste",
+        "ele": "nasceu",
+        "nos": "nascemos",
+        "vcs": "nasceram"
+      },
+      "imperfeito": {
+        "eu": "nascia",
+        "tu": "nascias",
+        "ele": "nascia",
+        "nos": "nascíamos",
+        "vcs": "nasciam"
+      },
+      "futuro": {
+        "eu": "nascerei",
+        "tu": "nascerás",
+        "ele": "nascerá",
+        "nos": "nasceremos",
+        "vcs": "nascerão"
+      }
+    }
+  },
+  {
+    "id": 400,
+    "pt": "visitar",
+    "en": "to visit",
+    "pos": "verb",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Visitamos a família todo ano.",
+        "en": "We visit the family every year."
+      },
+      {
+        "pt": "Você já visitou Ouro Preto?",
+        "en": "Have you visited Ouro Preto?"
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "visito",
+        "tu": "visitas",
+        "ele": "visita",
+        "nos": "visitamos",
+        "vcs": "visitam"
+      },
+      "perfeito": {
+        "eu": "visitei",
+        "tu": "visitaste",
+        "ele": "visitou",
+        "nos": "visitamos",
+        "vcs": "visitaram"
+      },
+      "imperfeito": {
+        "eu": "visitava",
+        "tu": "visitavas",
+        "ele": "visitava",
+        "nos": "visitávamos",
+        "vcs": "visitavam"
+      },
+      "futuro": {
+        "eu": "visitarei",
+        "tu": "visitarás",
+        "ele": "visitará",
+        "nos": "visitaremos",
+        "vcs": "visitarão"
+      }
+    }
+  },
+  {
+    "id": 402,
+    "pt": "reunir",
+    "en": "to gather / to bring together",
+    "pos": "verb",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A família se reúne no Natal.",
+        "en": "The family gathers at Christmas."
+      },
+      {
+        "pt": "Vamos nos reunir no fim de semana.",
+        "en": "Let's get together this weekend."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "reúno",
+        "tu": "reúnes",
+        "ele": "reúne",
+        "nos": "reunimos",
+        "vcs": "reúnem"
+      },
+      "perfeito": {
+        "eu": "reuni",
+        "tu": "reuniste",
+        "ele": "reuniu",
+        "nos": "reunimos",
+        "vcs": "reuniram"
+      },
+      "imperfeito": {
+        "eu": "reunia",
+        "tu": "reunias",
+        "ele": "reunia",
+        "nos": "reuníamos",
+        "vcs": "reuniam"
+      },
+      "futuro": {
+        "eu": "reunirei",
+        "tu": "reunirás",
+        "ele": "reunirá",
+        "nos": "reuniremos",
+        "vcs": "reunirão"
+      }
+    }
+  },
+  {
+    "id": 403,
+    "pt": "antigo",
+    "en": "old / ancient / former",
+    "pos": "adjective",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Ouro Preto é uma cidade muito antiga.",
+        "en": "Ouro Preto is a very old city."
+      },
+      {
+        "pt": "Encontrei um amigo antigo.",
+        "en": "I ran into an old friend."
+      }
+    ]
+  },
+  {
+    "id": 404,
+    "pt": "querido",
+    "en": "dear / beloved",
+    "pos": "adjective",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Querido amigo, quanto tempo!",
+        "en": "Dear friend, it's been so long!"
+      },
+      {
+        "pt": "Ela é muito querida pela família.",
+        "en": "She is very dear to the family."
+      }
+    ]
+  },
+  {
+    "id": 405,
+    "pt": "saudoso",
+    "en": "nostalgic / longing",
+    "pos": "adjective",
+    "level": 9,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Fico saudoso quando ouço essa música.",
+        "en": "I feel nostalgic when I hear that music."
+      },
+      {
+        "pt": "Ela tem um olhar saudoso ao falar do passado.",
+        "en": "She has a nostalgic look when talking about the past."
+      }
+    ]
+  },
+  {
+    "id": 406,
+    "pt": "campo",
+    "en": "field / countryside",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "O campo verde de Minas é lindo.",
+        "en": "The green fields of Minas are beautiful."
+      },
+      {
+        "pt": "Prefiro o campo à cidade.",
+        "en": "I prefer the countryside to the city."
+      }
+    ]
+  },
+  {
+    "id": 407,
+    "pt": "mata",
+    "en": "forest / woods / bush",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A mata atlântica cobre parte de Minas.",
+        "en": "The Atlantic Forest covers part of Minas."
+      },
+      {
+        "pt": "Ouvimos pássaros na mata.",
+        "en": "We heard birds in the forest."
+      }
+    ]
+  },
+  {
+    "id": 408,
+    "pt": "rio",
+    "en": "river",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "O Rio São Francisco nasce em Minas Gerais.",
+        "en": "The São Francisco River originates in Minas Gerais."
+      },
+      {
+        "pt": "Nadamos no rio no verão.",
+        "en": "We swam in the river in summer."
+      }
+    ]
+  },
+  {
+    "id": 409,
+    "pt": "serra",
+    "en": "mountain range / hills",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A Serra da Canastra fica em Minas Gerais.",
+        "en": "The Canastra Mountains are in Minas Gerais."
+      },
+      {
+        "pt": "Subimos a serra de manhã.",
+        "en": "We climbed the mountains in the morning."
+      }
+    ]
+  },
+  {
+    "id": 410,
+    "pt": "cachoeira",
+    "en": "waterfall",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Minas tem cachoeiras incríveis.",
+        "en": "Minas has incredible waterfalls."
+      },
+      {
+        "pt": "Tomamos banho na cachoeira.",
+        "en": "We bathed in the waterfall."
+      }
+    ]
+  },
+  {
+    "id": 411,
+    "pt": "estrada",
+    "en": "road / highway",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A estrada para Ouro Preto é sinuosa.",
+        "en": "The road to Ouro Preto is winding."
+      },
+      {
+        "pt": "Seguimos pela estrada de terra.",
+        "en": "We followed the dirt road."
+      }
+    ]
+  },
+  {
+    "id": 412,
+    "pt": "curva",
+    "en": "curve / bend (in road)",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Devagar nessa curva, é perigoso.",
+        "en": "Slow down at this curve, it's dangerous."
+      },
+      {
+        "pt": "Depois da curva fica a fazenda.",
+        "en": "After the bend is the farm."
+      }
+    ]
+  },
+  {
+    "id": 413,
+    "pt": "fazenda",
+    "en": "farm / ranch / estate",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A fazenda produz café e leite.",
+        "en": "The farm produces coffee and milk."
+      },
+      {
+        "pt": "Passamos um fim de semana na fazenda.",
+        "en": "We spent a weekend on the farm."
+      }
+    ]
+  },
+  {
+    "id": 414,
+    "pt": "plantação",
+    "en": "plantation / crop field",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A plantação de café cobre as montanhas.",
+        "en": "The coffee plantation covers the mountains."
+      },
+      {
+        "pt": "Trabalham na plantação desde cedo.",
+        "en": "They work in the fields since early morning."
+      }
+    ]
+  },
+  {
+    "id": 415,
+    "pt": "gado",
+    "en": "cattle / livestock",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Minas tem muita criação de gado.",
+        "en": "Minas has a lot of cattle raising."
+      },
+      {
+        "pt": "O gado pasta no campo.",
+        "en": "The cattle graze in the field."
+      }
+    ]
+  },
+  {
+    "id": 416,
+    "pt": "distância",
+    "en": "distance",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Qual é a distância de Belo Horizonte ao Rio?",
+        "en": "What's the distance from Belo Horizonte to Rio?"
+      },
+      {
+        "pt": "A fazenda fica a dez quilômetros de distância.",
+        "en": "The farm is ten kilometers away."
+      }
+    ]
+  },
+  {
+    "id": 417,
+    "pt": "quilômetro",
+    "en": "kilometer",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "São trezentos quilômetros até Ouro Preto.",
+        "en": "It's three hundred kilometers to Ouro Preto."
+      },
+      {
+        "pt": "Corremos cinco quilômetros hoje.",
+        "en": "We ran five kilometers today."
+      }
+    ]
+  },
+  {
+    "id": 418,
+    "pt": "norte",
+    "en": "north",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "O norte de Minas é mais seco.",
+        "en": "The north of Minas is drier."
+      },
+      {
+        "pt": "Siga para o norte por cinquenta quilômetros.",
+        "en": "Go north for fifty kilometers."
+      }
+    ]
+  },
+  {
+    "id": 419,
+    "pt": "sul",
+    "en": "south",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "O sul do Brasil tem um clima mais frio.",
+        "en": "The south of Brazil has a colder climate."
+      },
+      {
+        "pt": "A cidade fica ao sul do estado.",
+        "en": "The city is in the south of the state."
+      }
+    ]
+  },
+  {
+    "id": 420,
+    "pt": "leste",
+    "en": "east",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "O sol nasce a leste.",
+        "en": "The sun rises in the east."
+      },
+      {
+        "pt": "O Rio de Janeiro fica a leste de Minas.",
+        "en": "Rio de Janeiro is to the east of Minas."
+      }
+    ]
+  },
+  {
+    "id": 421,
+    "pt": "oeste",
+    "en": "west",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "O sol se põe a oeste.",
+        "en": "The sun sets in the west."
+      },
+      {
+        "pt": "A fronteira com Goiás fica ao oeste.",
+        "en": "The border with Goiás is to the west."
+      }
+    ]
+  },
+  {
+    "id": 423,
+    "pt": "minuto",
+    "en": "minute",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Espera só um minuto.",
+        "en": "Wait just a minute."
+      },
+      {
+        "pt": "Chegou em dez minutos.",
+        "en": "He arrived in ten minutes."
+      }
+    ]
+  },
+  {
+    "id": 424,
+    "pt": "segundo",
+    "en": "second (time) / second (ordinal)",
+    "pos": "noun",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Só um segundo, já vou.",
+        "en": "Just a second, I'm coming."
+      },
+      {
+        "pt": "É o segundo maior estado do Brasil.",
+        "en": "It's the second largest state in Brazil."
+      }
+    ]
+  },
+  {
+    "id": 425,
+    "pt": "próximo",
+    "en": "next / close / nearby",
+    "pos": "adjective",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "O próximo ônibus sai às duas.",
+        "en": "The next bus leaves at two."
+      },
+      {
+        "pt": "A farmácia mais próxima fica ali.",
+        "en": "The nearest pharmacy is right there."
+      }
+    ]
+  },
+  {
+    "id": 426,
+    "pt": "último",
+    "en": "last / final",
+    "pos": "adjective",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Essa é a última chance.",
+        "en": "This is the last chance."
+      },
+      {
+        "pt": "Foi a última vez que o vi.",
+        "en": "It was the last time I saw him."
+      }
+    ]
+  },
+  {
+    "id": 427,
+    "pt": "primeiro",
+    "en": "first",
+    "pos": "adjective",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Essa é a primeira vez que venho a Minas.",
+        "en": "This is the first time I've come to Minas."
+      },
+      {
+        "pt": "O primeiro passo é o mais difícil.",
+        "en": "The first step is the hardest."
+      }
+    ]
+  },
+  {
+    "id": 430,
+    "pt": "atravessar",
+    "en": "to cross / to go through",
+    "pos": "verb",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Atravessamos o rio de barco.",
+        "en": "We crossed the river by boat."
+      },
+      {
+        "pt": "Cuidado ao atravessar a rua.",
+        "en": "Be careful when crossing the street."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "atravesso",
+        "tu": "atravessas",
+        "ele": "atravessa",
+        "nos": "atravessamos",
+        "vcs": "atravessam"
+      },
+      "perfeito": {
+        "eu": "atravessei",
+        "tu": "atravessaste",
+        "ele": "atravessou",
+        "nos": "atravessamos",
+        "vcs": "atravessaram"
+      },
+      "imperfeito": {
+        "eu": "atravessava",
+        "tu": "atravessavas",
+        "ele": "atravessava",
+        "nos": "atravessávamos",
+        "vcs": "atravessavam"
+      },
+      "futuro": {
+        "eu": "atravessarei",
+        "tu": "atravessarás",
+        "ele": "atravessará",
+        "nos": "atravessaremos",
+        "vcs": "atravessarão"
+      }
+    }
+  },
+  {
+    "id": 431,
+    "pt": "subir",
+    "en": "to go up / to climb",
+    "pos": "verb",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Subimos a serra a pé.",
+        "en": "We climbed the mountain on foot."
+      },
+      {
+        "pt": "O preço do combustível subiu.",
+        "en": "The fuel price went up."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "subo",
+        "tu": "sobes",
+        "ele": "sobe",
+        "nos": "subimos",
+        "vcs": "sobem"
+      },
+      "perfeito": {
+        "eu": "subi",
+        "tu": "subiste",
+        "ele": "subiu",
+        "nos": "subimos",
+        "vcs": "subiram"
+      },
+      "imperfeito": {
+        "eu": "subia",
+        "tu": "subias",
+        "ele": "subia",
+        "nos": "subíamos",
+        "vcs": "subiam"
+      },
+      "futuro": {
+        "eu": "subirei",
+        "tu": "subirás",
+        "ele": "subirá",
+        "nos": "subiremos",
+        "vcs": "subirão"
+      }
+    }
+  },
+  {
+    "id": 432,
+    "pt": "descer",
+    "en": "to go down / to get off",
+    "pos": "verb",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Desça aqui, é a sua parada.",
+        "en": "Get off here, it's your stop."
+      },
+      {
+        "pt": "A temperatura desceu muito à noite.",
+        "en": "The temperature dropped a lot at night."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "desço",
+        "tu": "desces",
+        "ele": "desce",
+        "nos": "descemos",
+        "vcs": "descem"
+      },
+      "perfeito": {
+        "eu": "desci",
+        "tu": "desceste",
+        "ele": "desceu",
+        "nos": "descemos",
+        "vcs": "desceram"
+      },
+      "imperfeito": {
+        "eu": "descia",
+        "tu": "descias",
+        "ele": "descia",
+        "nos": "descíamos",
+        "vcs": "desciam"
+      },
+      "futuro": {
+        "eu": "descerei",
+        "tu": "descerás",
+        "ele": "descerá",
+        "nos": "desceremos",
+        "vcs": "descerão"
+      }
+    }
+  },
+  {
+    "id": 433,
+    "pt": "dirigir",
+    "en": "to drive",
+    "pos": "verb",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Você sabe dirigir?",
+        "en": "Do you know how to drive?"
+      },
+      {
+        "pt": "Dirigi horas para chegar ao sítio.",
+        "en": "I drove for hours to get to the farm."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "dirijo",
+        "tu": "diriges",
+        "ele": "dirige",
+        "nos": "dirigimos",
+        "vcs": "dirigem"
+      },
+      "perfeito": {
+        "eu": "dirigi",
+        "tu": "dirigiste",
+        "ele": "dirigiu",
+        "nos": "dirigimos",
+        "vcs": "dirigiram"
+      },
+      "imperfeito": {
+        "eu": "dirigia",
+        "tu": "dirigias",
+        "ele": "dirigia",
+        "nos": "dirigíamos",
+        "vcs": "dirigiam"
+      },
+      "futuro": {
+        "eu": "dirigirei",
+        "tu": "dirigirás",
+        "ele": "dirigirá",
+        "nos": "dirigiremos",
+        "vcs": "dirigirão"
+      }
+    }
+  },
+  {
+    "id": 434,
+    "pt": "plantar",
+    "en": "to plant / to grow (crops)",
+    "pos": "verb",
+    "level": 10,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "O avô planta café há quarenta anos.",
+        "en": "Grandpa has been growing coffee for forty years."
+      },
+      {
+        "pt": "Vamos plantar uma horta no quintal.",
+        "en": "Let's plant a vegetable garden in the backyard."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "planto",
+        "tu": "plantas",
+        "ele": "planta",
+        "nos": "plantamos",
+        "vcs": "plantam"
+      },
+      "perfeito": {
+        "eu": "plantei",
+        "tu": "plantaste",
+        "ele": "plantou",
+        "nos": "plantamos",
+        "vcs": "plantaram"
+      },
+      "imperfeito": {
+        "eu": "plantava",
+        "tu": "plantavas",
+        "ele": "plantava",
+        "nos": "plantávamos",
+        "vcs": "plantavam"
+      },
+      "futuro": {
+        "eu": "plantarei",
+        "tu": "plantarás",
+        "ele": "plantará",
+        "nos": "plantaremos",
+        "vcs": "plantarão"
+      }
+    }
+  },
+  {
+    "id": 436,
+    "pt": "festa junina",
+    "en": "June festival (Brazilian tradition)",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A festa junina tem quadrilha e milho assado.",
+        "en": "The June festival has square dancing and roasted corn."
+      },
+      {
+        "pt": "Adoro festa junina, a melhor época do ano.",
+        "en": "I love June festivals, the best time of year."
+      }
+    ]
+  },
+  {
+    "id": 437,
+    "pt": "fogueira",
+    "en": "bonfire",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A fogueira da festa junina é enorme.",
+        "en": "The June festival bonfire is enormous."
+      },
+      {
+        "pt": "Todo mundo fica em volta da fogueira.",
+        "en": "Everyone gathers around the bonfire."
+      }
+    ]
+  },
+  {
+    "id": 438,
+    "pt": "quadrilha",
+    "en": "square dance (Brazilian)",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A quadrilha é a dança tradicional da festa junina.",
+        "en": "Square dancing is the traditional dance of the June festival."
+      },
+      {
+        "pt": "Ensaiamos a quadrilha por semanas.",
+        "en": "We rehearsed the square dance for weeks."
+      }
+    ]
+  },
+  {
+    "id": 439,
+    "pt": "milho",
+    "en": "corn / maize",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Milho verde na brasa é delicioso.",
+        "en": "Grilled sweet corn is delicious."
+      },
+      {
+        "pt": "Canjica é feita de milho branco.",
+        "en": "Canjica is made from white corn."
+      }
+    ]
+  },
+  {
+    "id": 440,
+    "pt": "pipoca",
+    "en": "popcorn",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Pipoca doce e salgada na festa junina.",
+        "en": "Sweet and salty popcorn at the June festival."
+      },
+      {
+        "pt": "Vamos fazer pipoca para o filme?",
+        "en": "Shall we make popcorn for the movie?"
+      }
+    ]
+  },
+  {
+    "id": 441,
+    "pt": "estação",
+    "en": "season / station (bus/train)",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Qual é a sua estação do ano preferida?",
+        "en": "What is your favorite season?"
+      },
+      {
+        "pt": "A estação de ônibus fica no centro.",
+        "en": "The bus station is in the center."
+      }
+    ]
+  },
+  {
+    "id": 442,
+    "pt": "verão",
+    "en": "summer",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "O verão brasileiro é quente e chuvoso.",
+        "en": "Brazilian summer is hot and rainy."
+      },
+      {
+        "pt": "No verão a gente vai muito à praia.",
+        "en": "In summer we go to the beach a lot."
+      }
+    ]
+  },
+  {
+    "id": 443,
+    "pt": "inverno",
+    "en": "winter",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "O inverno em Minas pode ser frio.",
+        "en": "Winter in Minas can be cold."
+      },
+      {
+        "pt": "Prefiro o inverno ao verão.",
+        "en": "I prefer winter to summer."
+      }
+    ]
+  },
+  {
+    "id": 444,
+    "pt": "outono",
+    "en": "autumn / fall",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "O outono no Sul é muito bonito.",
+        "en": "Autumn in the South is very beautiful."
+      },
+      {
+        "pt": "As folhas mudam de cor no outono.",
+        "en": "The leaves change color in autumn."
+      }
+    ]
+  },
+  {
+    "id": 445,
+    "pt": "primavera",
+    "en": "spring",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A primavera traz flores e chuva.",
+        "en": "Spring brings flowers and rain."
+      },
+      {
+        "pt": "Ipê amarelo floresce na primavera.",
+        "en": "The yellow ipê tree blooms in spring."
+      }
+    ]
+  },
+  {
+    "id": 447,
+    "pt": "neblina",
+    "en": "fog / mist",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Tinha muita neblina na serra de manhã.",
+        "en": "There was a lot of fog on the mountain in the morning."
+      },
+      {
+        "pt": "A neblina encobriu toda a cidade.",
+        "en": "The fog covered the whole city."
+      }
+    ]
+  },
+  {
+    "id": 448,
+    "pt": "temperatura",
+    "en": "temperature",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A temperatura caiu dez graus de ontem pra hoje.",
+        "en": "The temperature dropped ten degrees from yesterday to today."
+      },
+      {
+        "pt": "Qual é a temperatura lá fora?",
+        "en": "What's the temperature outside?"
+      }
+    ]
+  },
+  {
+    "id": 449,
+    "pt": "aniversário",
+    "en": "birthday / anniversary",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Hoje é meu aniversário!",
+        "en": "Today is my birthday!"
+      },
+      {
+        "pt": "O aniversário de casamento deles é em junho.",
+        "en": "Their wedding anniversary is in June."
+      }
+    ]
+  },
+  {
+    "id": 450,
+    "pt": "presente",
+    "en": "gift / present",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Que presente lindo, obrigada!",
+        "en": "What a beautiful gift, thank you!"
+      },
+      {
+        "pt": "Comprei um presente para o aniversário dela.",
+        "en": "I bought a present for her birthday."
+      }
+    ]
+  },
+  {
+    "id": 451,
+    "pt": "vela",
+    "en": "candle",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Apaga as velas do bolo!",
+        "en": "Blow out the birthday candles!"
+      },
+      {
+        "pt": "Acendemos velas durante a falta de luz.",
+        "en": "We lit candles during the power outage."
+      }
+    ]
+  },
+  {
+    "id": 452,
+    "pt": "bolo",
+    "en": "cake",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "O bolo de cenoura com cobertura de chocolate é clássico.",
+        "en": "Carrot cake with chocolate frosting is a classic."
+      },
+      {
+        "pt": "Fiz um bolo para o aniversário.",
+        "en": "I made a cake for the birthday."
+      }
+    ]
+  },
+  {
+    "id": 453,
+    "pt": "decoração",
+    "en": "decoration",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A decoração da festa ficou linda.",
+        "en": "The party decoration turned out beautiful."
+      },
+      {
+        "pt": "Precisamos de decoração para a festa junina.",
+        "en": "We need decoration for the June festival."
+      }
+    ]
+  },
+  {
+    "id": 454,
+    "pt": "convite",
+    "en": "invitation",
+    "pos": "noun",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Mandei convite para toda a família.",
+        "en": "I sent invitations to the whole family."
+      },
+      {
+        "pt": "Obrigado pelo convite!",
+        "en": "Thank you for the invitation!"
+      }
+    ]
+  },
+  {
+    "id": 455,
+    "pt": "celebrar",
+    "en": "to celebrate",
+    "pos": "verb",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Vamos celebrar essa conquista!",
+        "en": "Let's celebrate this achievement!"
+      },
+      {
+        "pt": "O Brasil sabe celebrar como ninguém.",
+        "en": "Brazil knows how to celebrate like no one else."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "celebro",
+        "tu": "celebras",
+        "ele": "celebra",
+        "nos": "celebramos",
+        "vcs": "celebram"
+      },
+      "perfeito": {
+        "eu": "celebrei",
+        "tu": "celebraste",
+        "ele": "celebrou",
+        "nos": "celebramos",
+        "vcs": "celebraram"
+      },
+      "imperfeito": {
+        "eu": "celebrava",
+        "tu": "celebravas",
+        "ele": "celebrava",
+        "nos": "celebrávamos",
+        "vcs": "celebravam"
+      },
+      "futuro": {
+        "eu": "celebrarei",
+        "tu": "celebrarás",
+        "ele": "celebrará",
+        "nos": "celebraremos",
+        "vcs": "celebrarão"
+      }
+    }
+  },
+  {
+    "id": 456,
+    "pt": "festejar",
+    "en": "to celebrate / to party",
+    "pos": "verb",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Todo o bairro foi festejar na rua.",
+        "en": "The whole neighborhood went to celebrate in the street."
+      },
+      {
+        "pt": "Vamos festejar o ano novo juntos.",
+        "en": "Let's celebrate New Year's together."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "festejo",
+        "tu": "stejas",
+        "ele": "festeja",
+        "nos": "festejamos",
+        "vcs": "festejam"
+      },
+      "perfeito": {
+        "eu": "festejei",
+        "tu": "festejaste",
+        "ele": "festejou",
+        "nos": "festejamos",
+        "vcs": "festejaram"
+      },
+      "imperfeito": {
+        "eu": "festejava",
+        "tu": "festejavas",
+        "ele": "festejava",
+        "nos": "festejávamos",
+        "vcs": "festejavam"
+      },
+      "futuro": {
+        "eu": "festejarei",
+        "tu": "festejarás",
+        "ele": "festejará",
+        "nos": "festejaremos",
+        "vcs": "festejarão"
+      }
+    }
+  },
+  {
+    "id": 457,
+    "pt": "chover",
+    "en": "to rain",
+    "pos": "verb",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Está chovendo muito hoje.",
+        "en": "It's raining a lot today."
+      },
+      {
+        "pt": "Acho que vai chover à tarde.",
+        "en": "I think it's going to rain in the afternoon."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "chovo",
+        "tu": "choves",
+        "ele": "chove",
+        "nos": "chovemos",
+        "vcs": "chovem"
+      },
+      "perfeito": {
+        "eu": "chovi",
+        "tu": "choveste",
+        "ele": "choveu",
+        "nos": "chovemos",
+        "vcs": "choveram"
+      },
+      "imperfeito": {
+        "eu": "chovia",
+        "tu": "chovias",
+        "ele": "chovia",
+        "nos": "chovíamos",
+        "vcs": "choviam"
+      },
+      "futuro": {
+        "eu": "choverei",
+        "tu": "choverás",
+        "ele": "choverá",
+        "nos": "choveremos",
+        "vcs": "choverão"
+      }
+    }
+  },
+  {
+    "id": 458,
+    "pt": "ensaiar",
+    "en": "to rehearse / to practice",
+    "pos": "verb",
+    "level": 11,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Ensaiamos a dança toda semana.",
+        "en": "We rehearse the dance every week."
+      },
+      {
+        "pt": "Preciso ensaiar meu discurso.",
+        "en": "I need to rehearse my speech."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "ensaio",
+        "tu": "ensaias",
+        "ele": "ensaia",
+        "nos": "ensaiamos",
+        "vcs": "ensaiam"
+      },
+      "perfeito": {
+        "eu": "ensaiei",
+        "tu": "ensaiaste",
+        "ele": "ensaiou",
+        "nos": "ensaiamos",
+        "vcs": "ensaiaram"
+      },
+      "imperfeito": {
+        "eu": "ensaiava",
+        "tu": "ensaiavas",
+        "ele": "ensaiava",
+        "nos": "ensaiávamos",
+        "vcs": "ensaiavam"
+      },
+      "futuro": {
+        "eu": "ensaiarei",
+        "tu": "ensaiarás",
+        "ele": "ensaiará",
+        "nos": "ensaiaremos",
+        "vcs": "ensaiarão"
+      }
+    }
+  },
+  {
+    "id": 459,
+    "pt": "passado",
+    "en": "past",
+    "pos": "noun",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Não adianta se prender ao passado.",
+        "en": "There's no point clinging to the past."
+      },
+      {
+        "pt": "O passado nos formou como somos.",
+        "en": "The past shaped us into who we are."
+      }
+    ]
+  },
+  {
+    "id": 460,
+    "pt": "futuro",
+    "en": "future",
+    "pos": "noun",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "O futuro pertence a quem acredita.",
+        "en": "The future belongs to those who believe."
+      },
+      {
+        "pt": "Preciso planejar meu futuro profissional.",
+        "en": "I need to plan my professional future."
+      }
+    ]
+  },
+  {
+    "id": 462,
+    "pt": "memória",
+    "en": "memory",
+    "pos": "noun",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Tenho boa memória para nomes.",
+        "en": "I have a good memory for names."
+      },
+      {
+        "pt": "As memórias da infância ficam para sempre.",
+        "en": "Childhood memories stay forever."
+      }
+    ]
+  },
+  {
+    "id": 463,
+    "pt": "infância",
+    "en": "childhood",
+    "pos": "noun",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Minha infância foi muito feliz.",
+        "en": "My childhood was very happy."
+      },
+      {
+        "pt": "Na infância, morava no interior.",
+        "en": "In childhood, I lived in the countryside."
+      }
+    ]
+  },
+  {
+    "id": 464,
+    "pt": "juventude",
+    "en": "youth / young people",
+    "pos": "noun",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A juventude brasileira é muito criativa.",
+        "en": "Brazilian youth is very creative."
+      },
+      {
+        "pt": "Na juventude, tinha mais energia.",
+        "en": "In my youth, I had more energy."
+      }
+    ]
+  },
+  {
+    "id": 465,
+    "pt": "identidade",
+    "en": "identity",
+    "pos": "noun",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A identidade cultural do Brasil é rica e diversa.",
+        "en": "Brazil's cultural identity is rich and diverse."
+      },
+      {
+        "pt": "Cada região tem sua própria identidade.",
+        "en": "Each region has its own identity."
+      }
+    ]
+  },
+  {
+    "id": 466,
+    "pt": "raiz",
+    "en": "root (cultural / plant)",
+    "pos": "noun",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Minas tem raízes africanas e indígenas.",
+        "en": "Minas has African and indigenous roots."
+      },
+      {
+        "pt": "Não esqueça as suas raízes.",
+        "en": "Don't forget your roots."
+      }
+    ]
+  },
+  {
+    "id": 467,
+    "pt": "origem",
+    "en": "origin / background",
+    "pos": "noun",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Qual é a origem do seu sobrenome?",
+        "en": "What is the origin of your surname?"
+      },
+      {
+        "pt": "O forró tem origem no nordeste.",
+        "en": "Forró has its origin in the northeast."
+      }
+    ]
+  },
+  {
+    "id": 468,
+    "pt": "geração",
+    "en": "generation",
+    "pos": "noun",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Essa receita passa de geração em geração.",
+        "en": "This recipe is passed down from generation to generation."
+      },
+      {
+        "pt": "A geração dos meus pais vivia diferente.",
+        "en": "My parents' generation lived differently."
+      }
+    ]
+  },
+  {
+    "id": 469,
+    "pt": "época",
+    "en": "era / time period",
+    "pos": "noun",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Foi uma época muito difícil para o país.",
+        "en": "It was a very difficult era for the country."
+      },
+      {
+        "pt": "Nessa época eu ainda morava em Minas.",
+        "en": "At that time I still lived in Minas."
+      }
+    ]
+  },
+  {
+    "id": 470,
+    "pt": "séculos",
+    "en": "centuries",
+    "pos": "noun",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Ouro Preto tem séculos de história.",
+        "en": "Ouro Preto has centuries of history."
+      },
+      {
+        "pt": "A escravidão durou séculos no Brasil.",
+        "en": "Slavery lasted centuries in Brazil."
+      }
+    ]
+  },
+  {
+    "id": 471,
+    "pt": "mudança",
+    "en": "change",
+    "pos": "noun",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A mudança de cidade foi difícil no começo.",
+        "en": "The change of city was hard at first."
+      },
+      {
+        "pt": "A tecnologia trouxe muitas mudanças.",
+        "en": "Technology brought many changes."
+      }
+    ]
+  },
+  {
+    "id": 472,
+    "pt": "conquista",
+    "en": "achievement / conquest",
+    "pos": "noun",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Falar português é uma conquista sua.",
+        "en": "Speaking Portuguese is your achievement."
+      },
+      {
+        "pt": "Cada passo é uma conquista.",
+        "en": "Every step is an achievement."
+      }
+    ]
+  },
+  {
+    "id": 473,
+    "pt": "desafio",
+    "en": "challenge",
+    "pos": "noun",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Aprender um novo idioma é um grande desafio.",
+        "en": "Learning a new language is a great challenge."
+      },
+      {
+        "pt": "Enfrento cada desafio com calma.",
+        "en": "I face every challenge calmly."
+      }
+    ]
+  },
+  {
+    "id": 475,
+    "pt": "ensinar",
+    "en": "to teach",
+    "pos": "verb",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "A avó me ensinou a cozinhar feijão.",
+        "en": "Grandma taught me how to cook beans."
+      },
+      {
+        "pt": "Ensino inglês para crianças.",
+        "en": "I teach English to children."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "ensino",
+        "tu": "ensinas",
+        "ele": "ensina",
+        "nos": "ensinamos",
+        "vcs": "ensinam"
+      },
+      "perfeito": {
+        "eu": "ensinei",
+        "tu": "ensinaste",
+        "ele": "ensinou",
+        "nos": "ensinamos",
+        "vcs": "ensinaram"
+      },
+      "imperfeito": {
+        "eu": "ensinava",
+        "tu": "ensinavas",
+        "ele": "ensinava",
+        "nos": "ensinávamos",
+        "vcs": "ensinavam"
+      },
+      "futuro": {
+        "eu": "ensinarei",
+        "tu": "ensinarás",
+        "ele": "ensinará",
+        "nos": "ensinaremos",
+        "vcs": "ensinarão"
+      }
+    }
+  },
+  {
+    "id": 476,
+    "pt": "mudar",
+    "en": "to change / to move (home)",
+    "pos": "verb",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Mudei para São Paulo ano passado.",
+        "en": "I moved to São Paulo last year."
+      },
+      {
+        "pt": "As coisas mudam, é preciso se adaptar.",
+        "en": "Things change, you have to adapt."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "mudo",
+        "tu": "mudas",
+        "ele": "muda",
+        "nos": "mudamos",
+        "vcs": "mudam"
+      },
+      "perfeito": {
+        "eu": "mudei",
+        "tu": "mudaste",
+        "ele": "mudou",
+        "nos": "mudamos",
+        "vcs": "mudaram"
+      },
+      "imperfeito": {
+        "eu": "mudava",
+        "tu": "mudavas",
+        "ele": "mudava",
+        "nos": "mudávamos",
+        "vcs": "mudavam"
+      },
+      "futuro": {
+        "eu": "mudarei",
+        "tu": "mudarás",
+        "ele": "mudará",
+        "nos": "mudaremos",
+        "vcs": "mudarão"
+      }
+    }
+  },
+  {
+    "id": 477,
+    "pt": "superar",
+    "en": "to overcome / to surpass",
+    "pos": "verb",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Você vai superar essa dificuldade.",
+        "en": "You will overcome this difficulty."
+      },
+      {
+        "pt": "Superamos o desafio juntos.",
+        "en": "We overcame the challenge together."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "supero",
+        "tu": "superas",
+        "ele": "supera",
+        "nos": "superamos",
+        "vcs": "superam"
+      },
+      "perfeito": {
+        "eu": "superei",
+        "tu": "superaste",
+        "ele": "superou",
+        "nos": "superamos",
+        "vcs": "superaram"
+      },
+      "imperfeito": {
+        "eu": "superava",
+        "tu": "superavas",
+        "ele": "superava",
+        "nos": "superávamos",
+        "vcs": "superavam"
+      },
+      "futuro": {
+        "eu": "superarei",
+        "tu": "superarás",
+        "ele": "superará",
+        "nos": "superaremos",
+        "vcs": "superarão"
+      }
+    }
+  },
+  {
+    "id": 478,
+    "pt": "pertencer",
+    "en": "to belong (to)",
+    "pos": "verb",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Esse sotaque pertence ao nordeste.",
+        "en": "This accent belongs to the northeast."
+      },
+      {
+        "pt": "Me sinto pertencendo a esse lugar.",
+        "en": "I feel like I belong to this place."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "pertenço",
+        "tu": "pertences",
+        "ele": "pertence",
+        "nos": "pertencemos",
+        "vcs": "pertencem"
+      },
+      "perfeito": {
+        "eu": "pertenci",
+        "tu": "pertenceste",
+        "ele": "pertenceu",
+        "nos": "pertencemos",
+        "vcs": "pertenceram"
+      },
+      "imperfeito": {
+        "eu": "pertencia",
+        "tu": "pertenças",
+        "ele": "pertencia",
+        "nos": "pertencíamos",
+        "vcs": "pertenciam"
+      },
+      "futuro": {
+        "eu": "pertencerei",
+        "tu": "pertencerás",
+        "ele": "pertencerá",
+        "nos": "pertenceremos",
+        "vcs": "pertencerão"
+      }
+    }
+  },
+  {
+    "id": 479,
+    "pt": "valorizar",
+    "en": "to value / to appreciate",
+    "pos": "verb",
+    "level": 12,
+    "arc": 3,
+    "sentences": [
+      {
+        "pt": "Valorize cada momento com a família.",
+        "en": "Value every moment with family."
+      },
+      {
+        "pt": "O Brasil não valoriza suficientemente sua cultura.",
+        "en": "Brazil doesn't sufficiently value its culture."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "valorizo",
+        "tu": "valorizas",
+        "ele": "valoriza",
+        "nos": "valorizamos",
+        "vcs": "valorizam"
+      },
+      "perfeito": {
+        "eu": "valorizei",
+        "tu": "valorizaste",
+        "ele": "valorizou",
+        "nos": "valorizamos",
+        "vcs": "valorizaram"
+      },
+      "imperfeito": {
+        "eu": "valorizava",
+        "tu": "valorizavas",
+        "ele": "valorizava",
+        "nos": "valorizávamos",
+        "vcs": "valorizavam"
+      },
+      "futuro": {
+        "eu": "valorizarei",
+        "tu": "valorizarás",
+        "ele": "valorizará",
+        "nos": "valorizaremos",
+        "vcs": "valorizarão"
+      }
+    }
   }
 ]
