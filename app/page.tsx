@@ -8,6 +8,14 @@ import { hashPassphrase, validatePassphrase } from '@/lib/passphrase'
 import { useGameStore } from '@/store/gameStore'
 import { Player, WordProgress } from '@/types'
 
+const ARCS = [
+  { emoji: '🏙️', city: 'São Paulo'  },
+  { emoji: '🏖️', city: 'Rio'        },
+  { emoji: '⛰️', city: 'Minas'      },
+  { emoji: '🥁', city: 'Bahia'      },
+  { emoji: '🌿', city: 'Amazônia'   },
+]
+
 export default function Home() {
   const router = useRouter()
   const { setPlayer, setWordProgress } = useGameStore()
@@ -112,6 +120,23 @@ export default function Home() {
               </p>
             </div>
 
+            {/* Arc preview strip */}
+            <div className="flex items-center justify-between mb-8 w-full">
+              {ARCS.map((arc, i) => (
+                <div key={arc.city} className="flex items-center">
+                  <div className="flex flex-col items-center gap-1">
+                    <div className="w-9 h-9 rounded-full bg-white/10 border border-white/15 flex items-center justify-center text-base">
+                      {arc.emoji}
+                    </div>
+                    <span className="text-white/35 text-[10px] font-medium">{arc.city}</span>
+                  </div>
+                  {i < ARCS.length - 1 && (
+                    <div className="w-4 h-px bg-white/15 mb-3.5 mx-0.5" />
+                  )}
+                </div>
+              ))}
+            </div>
+
             {/* CTA buttons */}
             <div className="flex flex-col gap-3">
               <motion.button
@@ -122,7 +147,7 @@ export default function Home() {
                 Start my journey
               </motion.button>
               <motion.button
-                onClick={() => router.push('/play')}
+                onClick={() => router.push('/intro')}
                 whileTap={{ scale: 0.97 }}
                 className="w-full bg-white/10 text-white/80 font-semibold py-4 rounded-2xl text-base border border-white/20 hover:bg-white/15 transition"
               >
