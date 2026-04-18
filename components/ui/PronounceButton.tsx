@@ -7,9 +7,10 @@ interface Props {
   text: string
   slow?: boolean
   size?: 'sm' | 'md' | 'lg'
+  variant?: 'onDark' | 'onLight'
 }
 
-export default function PronounceButton({ text, slow = false, size = 'md' }: Props) {
+export default function PronounceButton({ text, slow = false, size = 'md', variant = 'onDark' }: Props) {
   const [speaking, setSpeaking] = useState(false)
 
   const handleSpeak = () => {
@@ -19,23 +20,25 @@ export default function PronounceButton({ text, slow = false, size = 'md' }: Pro
   }
 
   const sizeClasses = {
-    sm: 'w-7 h-7 text-sm',
-    md: 'w-9 h-9 text-base',
-    lg: 'w-12 h-12 text-xl',
+    sm: 'w-6 h-6 text-xs',
+    md: 'w-8 h-8 text-sm',
+    lg: 'w-11 h-11 text-base',
   }
+
+  const variantClasses = variant === 'onDark'
+    ? 'bg-white/20 hover:bg-white/30 text-white'
+    : 'bg-sand hover:bg-sand/70 text-navy/60'
 
   return (
     <button
       onClick={handleSpeak}
       className={`
         ${sizeClasses[size]}
+        ${variantClasses}
         inline-flex items-center justify-center
-        rounded-full
-        bg-sky-100 hover:bg-sky-200
-        text-sky-600 hover:text-sky-700
-        transition-all duration-150
-        ${speaking ? 'scale-110 bg-sky-200 animate-pulse' : ''}
-        focus:outline-none focus:ring-2 focus:ring-sky-400
+        rounded-full transition duration-150 flex-shrink-0
+        ${speaking ? 'scale-110 animate-pulse' : ''}
+        focus:outline-none
       `}
       title={`Pronounce "${text}"`}
       aria-label={`Pronounce ${text}`}

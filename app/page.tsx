@@ -87,40 +87,49 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 flex items-center justify-center p-4">
+    <main className="min-h-screen bg-navy flex items-center justify-center p-6">
       <div className="w-full max-w-sm">
 
         {mode === 'landing' && (
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4 }}
             className="text-center"
           >
-            <div className="mb-8">
-              <div className="text-7xl mb-3">🇧🇷</div>
-              <h1 className="text-5xl font-black text-white tracking-tight">Fala Já</h1>
-              <p className="text-indigo-200 mt-2 text-lg">Learn 2000 Brazilian Portuguese words</p>
-              <p className="text-indigo-300 text-sm mt-1 italic">through a journey across Brazil</p>
+            {/* Logo mark */}
+            <div className="mb-10">
+              <div className="text-6xl mb-4">🇧🇷</div>
+              <h1 className="text-6xl font-extrabold text-white tracking-tight leading-none">
+                Fala Já
+              </h1>
+              <p className="text-white/60 mt-3 text-base font-medium">
+                2,000 Brazilian Portuguese words
+              </p>
+              <p className="text-white/40 text-sm mt-1">
+                through a journey across Brazil
+              </p>
             </div>
 
+            {/* CTA buttons */}
             <div className="flex flex-col gap-3">
               <motion.button
                 onClick={() => setMode('login')}
                 whileTap={{ scale: 0.97 }}
-                className="w-full bg-white text-indigo-700 font-bold py-4 rounded-2xl text-lg shadow-lg hover:bg-indigo-50 transition-colors"
+                className="w-full bg-gold text-navy font-bold py-4 rounded-2xl text-base shadow-lg hover:brightness-105 transition"
               >
-                🗝️ My Journey
+                Start my journey
               </motion.button>
               <motion.button
                 onClick={() => router.push('/play')}
                 whileTap={{ scale: 0.97 }}
-                className="w-full bg-white/20 text-white font-semibold py-4 rounded-2xl text-lg border border-white/30 hover:bg-white/30 transition-colors"
+                className="w-full bg-white/10 text-white/80 font-semibold py-4 rounded-2xl text-base border border-white/20 hover:bg-white/15 transition"
               >
-                👀 Try as Guest
+                Try as guest
               </motion.button>
             </div>
 
-            <p className="text-indigo-300 text-xs mt-6">
+            <p className="text-white/30 text-xs mt-6">
               Guest progress is not saved between sessions
             </p>
           </motion.div>
@@ -128,19 +137,20 @@ export default function Home() {
 
         {mode === 'login' && (
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            animate={{ opacity: 1, x: 0 }}
-            className="bg-white rounded-3xl p-6 shadow-2xl"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.3 }}
           >
             <button
               onClick={() => setMode('landing')}
-              className="text-gray-400 text-sm mb-4 hover:text-gray-600"
+              className="text-white/40 text-sm mb-8 hover:text-white/70 transition flex items-center gap-1"
             >
               ← Back
             </button>
-            <h2 className="text-2xl font-black text-gray-800 mb-1">My Journey</h2>
-            <p className="text-gray-500 text-sm mb-6">
-              Enter your passphrase to load your progress — or create one to start fresh.
+
+            <h2 className="text-3xl font-extrabold text-white mb-1">My Journey</h2>
+            <p className="text-white/50 text-sm mb-8">
+              Enter your passphrase to load your progress — or create a new one to start fresh.
             </p>
 
             <input
@@ -149,26 +159,29 @@ export default function Home() {
               onChange={e => { setPassphrase(e.target.value); setError('') }}
               onKeyDown={e => e.key === 'Enter' && handleLogin()}
               placeholder="e.g. mango-rio-fala"
-              className="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 text-center text-lg focus:outline-none focus:border-indigo-400 mb-3"
+              className="w-full bg-white/10 border border-white/20 rounded-2xl px-4 py-3.5 text-center text-base text-white placeholder-white/30 focus:outline-none focus:border-gold focus:bg-white/15 transition mb-3"
               autoFocus
             />
 
-            {error && <p className="text-red-500 text-sm text-center mb-3">{error}</p>}
+            {error && (
+              <p className="text-red-400 text-sm text-center mb-3">{error}</p>
+            )}
 
             <motion.button
               onClick={handleLogin}
               disabled={loading}
               whileTap={{ scale: 0.97 }}
-              className="w-full bg-indigo-600 text-white font-bold py-3.5 rounded-2xl hover:bg-indigo-700 transition-colors disabled:opacity-60"
+              className="w-full bg-gold text-navy font-bold py-4 rounded-2xl hover:brightness-105 transition disabled:opacity-50 text-base"
             >
               {loading ? 'Loading...' : 'Continue →'}
             </motion.button>
 
-            <p className="text-gray-400 text-xs text-center mt-4">
+            <p className="text-white/30 text-xs text-center mt-5">
               New passphrase = new account · Same passphrase = load your progress
             </p>
           </motion.div>
         )}
+
       </div>
     </main>
   )

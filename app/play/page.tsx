@@ -18,6 +18,14 @@ import { StoryChapter } from '@/types'
 const words = wordsData as Word[]
 const story = storyData as StoryChapter[]
 
+const ARC_BAR_COLORS = [
+  'bg-blue-600',
+  'bg-teal-500',
+  'bg-orange-600',
+  'bg-amber-500',
+  'bg-green-600',
+]
+
 export default function PlayPage() {
   const router = useRouter()
   const {
@@ -34,11 +42,9 @@ export default function PlayPage() {
   const [showStory, setShowStory] = useState(false)
   const [finished, setFinished] = useState(false)
 
-  // Build session on mount
   useEffect(() => {
     const level = player?.current_level ?? 1
 
-    // Check if new level unlocked (show story vignette)
     if (player) {
       const chapter = story.find(s => s.level === level)
       const hasSeenThisLevel = wordProgress.some(
@@ -63,14 +69,12 @@ export default function PlayPage() {
   const handleResult = async (correct: boolean) => {
     const word = currentItem.word
 
-    // Update XP
     const streak = correct ? consecutiveCorrect + 1 : 0
     const xp = calcXpGain(correct, streak)
     addSessionXP(xp)
     if (correct) incrementConsecutive()
     else resetConsecutive()
 
-    // Update word progress
     const existing = wordProgress.find(p => p.word_id === word.id)
     const newStrength = updateStrength(existing?.strength ?? 0, correct)
     const nextReview = getNextReview(newStrength)
@@ -87,14 +91,12 @@ export default function PlayPage() {
 
     updateWordProgress(updated)
 
-    // Save to DB if logged in
     if (player) {
       await supabase.from('word_progress').upsert({
         ...updated,
         player_id: player.id,
       })
 
-      // Check if current level is now mastered → unlock next level
       const latestProgress = [
         ...wordProgress.filter(p => p.word_id !== updated.word_id),
         updated,
@@ -116,7 +118,6 @@ export default function PlayPage() {
       }
     }
 
-    // Advance or finish
     if (sessionIndex + 1 >= sessionQueue.length) {
       setFinished(true)
     } else {
@@ -124,59 +125,72 @@ export default function PlayPage() {
     }
   }
 
+  // Story vignette screen
   if (showStory && storyChapter) {
+    const arc = storyChapter.arc ?? 1
     return (
-      <main className="min-h-screen bg-gradient-to-br from-indigo-600 to-purple-700 flex items-center justify-center p-4">
+      <main className="min-h-screen bg-navy flex items-center justify-center p-5">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-white rounded-3xl p-6 max-w-sm w-full shadow-2xl"
+          className="bg-cream rounded-3xl p-7 max-w-sm w-full shadow-2xl"
         >
-          <div className="text-5xl text-center mb-3">{storyChapter.image_emoji}</div>
-          <p className="text-xs font-bold text-indigo-400 uppercase tracking-widest text-center mb-1">
+          <div className="text-5xl text-center mb-4">{storyChapter.image_emoji}</div>
+          <p className="text-xs font-bold text-navy/40 uppercase tracking-widest text-center mb-1">
             Level {storyChapter.level} · {storyChapter.location}
           </p>
-          <h2 className="text-xl font-black text-gray-800 text-center mb-4">{storyChapter.title}</h2>
-          <p className="text-gray-700 leading-relaxed text-sm mb-3">{storyChapter.vignette}</p>
-          <p className="text-gray-400 text-xs leading-relaxed italic mb-5">{storyChapter.vignette_en}</p>
+          <h2 className="text-xl font-extrabold text-navy text-center mb-5">
+            {storyChapter.title}
+          </h2>
+          <p className="text-navy/80 leading-relaxed text-sm mb-3">
+            {storyChapter.vignette}
+          </p>
+          <p className="text-navy/40 text-xs leading-relaxed italic mb-6">
+            {storyChapter.vignette_en}
+          </p>
           <motion.button
             onClick={() => setShowStory(false)}
             whileTap={{ scale: 0.97 }}
-            className="w-full bg-indigo-600 text-white font-bold py-3.5 rounded-2xl"
+            className="w-full bg-navy text-cream font-bold py-3.5 rounded-2xl"
           >
-            Start Learning →
+            Start learning →
           </motion.button>
         </motion.div>
       </main>
     )
   }
 
+  // Session complete screen
   if (finished) {
     return (
-      <main className="min-h-screen bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center p-4">
+      <main className="min-h-screen bg-navy flex items-center justify-center p-5">
         <motion.div
-          initial={{ scale: 0.8, opacity: 0 }}
+          initial={{ scale: 0.88, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
-          className="bg-white rounded-3xl p-8 max-w-sm w-full text-center shadow-2xl"
+          transition={{ type: 'spring', stiffness: 260, damping: 20 }}
+          className="bg-cream rounded-3xl p-8 max-w-sm w-full text-center shadow-2xl"
         >
-          <div className="text-6xl mb-3">🎉</div>
-          <h2 className="text-2xl font-black text-gray-800 mb-2">Session Complete!</h2>
-          <p className="text-gray-500 mb-4">You earned</p>
-          <div className="text-5xl font-black text-emerald-600 mb-6">+{sessionXP} XP</div>
+          <div className="text-5xl mb-4">✓</div>
+          <h2 className="text-2xl font-extrabold text-navy mb-1">Session complete</h2>
+          <p className="text-navy/50 text-sm mb-5">Great work — keep it up</p>
+          <div className="bg-gold-light rounded-2xl py-4 px-6 mb-6">
+            <span className="text-3xl font-extrabold text-navy">+{sessionXP}</span>
+            <span className="text-navy/60 font-semibold ml-2">XP</span>
+          </div>
           <div className="flex flex-col gap-3">
             {player ? (
               <motion.button
                 onClick={() => router.push('/dashboard')}
                 whileTap={{ scale: 0.97 }}
-                className="w-full bg-emerald-500 text-white font-bold py-3.5 rounded-2xl"
+                className="w-full bg-navy text-cream font-bold py-3.5 rounded-2xl"
               >
-                Back to Journey
+                Back to journey
               </motion.button>
             ) : (
               <motion.button
                 onClick={() => router.push('/')}
                 whileTap={{ scale: 0.97 }}
-                className="w-full bg-indigo-600 text-white font-bold py-3.5 rounded-2xl"
+                className="w-full bg-navy text-cream font-bold py-3.5 rounded-2xl"
               >
                 Save your progress →
               </motion.button>
@@ -188,9 +202,9 @@ export default function PlayPage() {
                 setFinished(false)
               }}
               whileTap={{ scale: 0.97 }}
-              className="w-full bg-gray-100 text-gray-700 font-semibold py-3.5 rounded-2xl"
+              className="w-full bg-sand text-navy/70 font-semibold py-3.5 rounded-2xl"
             >
-              Practice Again
+              Practice again
             </motion.button>
           </div>
         </motion.div>
@@ -200,42 +214,46 @@ export default function PlayPage() {
 
   if (!currentItem) return null
 
-  const progress = ((sessionIndex) / sessionQueue.length) * 100
+  const progress = (sessionIndex / sessionQueue.length) * 100
+  const currentArc = currentItem.word.arc ?? 1
+  const barColor = ARC_BAR_COLORS[currentArc - 1]
 
   return (
-    <main className="min-h-screen bg-gray-50 flex flex-col">
+    <main className="min-h-screen bg-cream flex flex-col">
       {/* Progress bar */}
-      <div className="h-2 bg-gray-200">
+      <div className="h-1.5 bg-sand">
         <motion.div
-          className="h-full bg-gradient-to-r from-indigo-500 to-purple-500"
+          className={`h-full ${barColor} rounded-r-full`}
           animate={{ width: `${progress}%` }}
-          transition={{ duration: 0.3 }}
+          transition={{ duration: 0.35, ease: 'easeOut' }}
         />
       </div>
 
-      {/* Header */}
-      <div className="flex items-center justify-between px-4 py-3">
+      {/* Session header */}
+      <div className="flex items-center justify-between px-5 py-3.5">
         <button
           onClick={() => player ? router.push('/dashboard') : router.push('/')}
-          className="text-gray-400 hover:text-gray-600 text-sm"
+          className="text-navy/30 hover:text-navy/60 transition text-xl leading-none"
         >
           ✕
         </button>
-        <span className="text-gray-400 text-sm font-medium">
+        <span className="text-navy/40 text-sm font-semibold tabular-nums">
           {sessionIndex + 1} / {sessionQueue.length}
         </span>
-        <span className="text-amber-500 font-bold text-sm">+{sessionXP} XP</span>
+        <span className="text-gold font-bold text-sm tabular-nums">
+          +{sessionXP} XP
+        </span>
       </div>
 
       {/* Game area */}
-      <div className="flex-1 flex items-center justify-center py-6">
+      <div className="flex-1 flex items-center justify-center py-4">
         <AnimatePresence mode="wait">
           <motion.div
             key={`${currentItem.word.id}-${sessionIndex}`}
-            initial={{ opacity: 0, x: 40 }}
+            initial={{ opacity: 0, x: 32 }}
             animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -40 }}
-            transition={{ duration: 0.2 }}
+            exit={{ opacity: 0, x: -32 }}
+            transition={{ duration: 0.18 }}
             className="w-full"
           >
             {currentItem.mode === 'flash' && (
@@ -247,7 +265,6 @@ export default function PlayPage() {
             {currentItem.mode === 'conjugate' && currentItem.word.conjugations && (
               <ConjugateMode word={currentItem.word} onResult={handleResult} />
             )}
-            {/* Fallback to flash if mode not yet implemented */}
             {(currentItem.mode === 'listen' || currentItem.mode === 'speak' || currentItem.mode === 'match') && (
               <FlashCard word={currentItem.word} onResult={handleResult} />
             )}

@@ -20,27 +20,27 @@ const PRONOUN_KEYS = ['eu', 'ele', 'nos', 'vcs'] as const
 export default function ConjugationFlipCard({ verb, verbEn, conjugations, highlight }: Props) {
   const [face, setFace] = useState<Face>(highlight ?? 'front')
 
-  const faces: Face[] = ['front', 'perfeito', 'imperfeito']
-  const next = () => {
-    const i = faces.indexOf(face)
-    setFace(faces[(i + 1) % faces.length])
-  }
+  const TABS: { key: Face; label: string }[] = [
+    { key: 'front',      label: 'Presente'  },
+    { key: 'perfeito',   label: 'Perfeito'  },
+    { key: 'imperfeito', label: 'Imperfeito' },
+  ]
 
   return (
     <div className="w-full max-w-sm mx-auto">
-      {/* Tab buttons */}
-      <div className="flex rounded-t-xl overflow-hidden border border-b-0 border-indigo-200">
-        {(['front', 'perfeito', 'imperfeito'] as Face[]).map(f => (
+      {/* Tabs */}
+      <div className="flex rounded-t-2xl overflow-hidden border border-b-0 border-sand">
+        {TABS.map(t => (
           <button
-            key={f}
-            onClick={() => setFace(f)}
-            className={`flex-1 py-2 text-xs font-semibold transition-colors
-              ${face === f
-                ? 'bg-indigo-500 text-white'
-                : 'bg-white text-indigo-400 hover:bg-indigo-50'
-              }`}
+            key={t.key}
+            onClick={() => setFace(t.key)}
+            className={`flex-1 py-2.5 text-xs font-bold transition-colors ${
+              face === t.key
+                ? 'bg-navy text-cream'
+                : 'bg-white text-navy/40 hover:bg-sand/60'
+            }`}
           >
-            {f === 'front' ? 'Presente' : f === 'perfeito' ? 'Perfeito ✓' : 'Imperfeito ~'}
+            {t.label}
           </button>
         ))}
       </div>
@@ -49,46 +49,46 @@ export default function ConjugationFlipCard({ verb, verbEn, conjugations, highli
       <AnimatePresence mode="wait">
         <motion.div
           key={face}
-          initial={{ opacity: 0, y: 8 }}
+          initial={{ opacity: 0, y: 6 }}
           animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -8 }}
-          transition={{ duration: 0.18 }}
-          className="bg-white border border-indigo-200 rounded-b-xl p-4 shadow-md"
+          exit={{ opacity: 0, y: -6 }}
+          transition={{ duration: 0.15 }}
+          className="bg-white border border-sand rounded-b-2xl p-5 shadow-sm"
         >
           {/* Header */}
-          <div className="flex items-center justify-between mb-3">
+          <div className="flex items-center justify-between mb-4">
             <div>
-              <span className="text-lg font-bold text-indigo-700">{verb}</span>
-              <span className="ml-2 text-sm text-gray-400">{verbEn}</span>
+              <span className="text-base font-extrabold text-navy">{verb}</span>
+              <span className="ml-2 text-sm text-navy/40">{verbEn}</span>
             </div>
-            <PronounceButton text={verb} size="sm" />
+            <PronounceButton text={verb} size="sm" variant="onLight" />
           </div>
 
           {/* Usage hint */}
           {face === 'perfeito' && (
-            <p className="text-xs text-emerald-600 bg-emerald-50 rounded px-2 py-1 mb-3">
-              💡 Action completed at a specific time — "I spoke" (and it's done)
+            <p className="text-xs text-green-700 bg-green-50 rounded-xl px-3 py-2 mb-4">
+              Completed action — "I spoke" (and it's done)
             </p>
           )}
           {face === 'imperfeito' && (
-            <p className="text-xs text-violet-600 bg-violet-50 rounded px-2 py-1 mb-3">
-              💡 Ongoing / habitual past — "I used to speak" / "I was speaking"
+            <p className="text-xs text-purple-700 bg-purple-50 rounded-xl px-3 py-2 mb-4">
+              Ongoing / habitual past — "I used to speak" / "I was speaking"
             </p>
           )}
 
-          {/* Conjugation table */}
-          <div className="space-y-2">
+          {/* Conjugation rows */}
+          <div className="space-y-2.5">
             {PRONOUN_KEYS.map((key, i) => {
               const tense = face === 'front' ? conjugations.presente
-                         : face === 'perfeito' ? conjugations.perfeito
-                         : conjugations.imperfeito
+                          : face === 'perfeito' ? conjugations.perfeito
+                          : conjugations.imperfeito
               const form = tense[key]
               return (
-                <div key={key} className="flex items-center justify-between group">
-                  <span className="text-xs text-gray-400 w-16">{PRONOUNS[i]}</span>
+                <div key={key} className="flex items-center justify-between">
+                  <span className="text-xs text-navy/40 w-16">{PRONOUNS[i]}</span>
                   <div className="flex items-center gap-2">
-                    <span className="font-semibold text-gray-800">{form}</span>
-                    <PronounceButton text={`${PRONOUNS[i]} ${form}`} size="sm" />
+                    <span className="font-semibold text-navy text-sm">{form}</span>
+                    <PronounceButton text={`${PRONOUNS[i]} ${form}`} size="sm" variant="onLight" />
                   </div>
                 </div>
               )

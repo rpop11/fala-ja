@@ -11,6 +11,15 @@ interface Props {
   onResult: (correct: boolean) => void
 }
 
+// Arc-coded card backgrounds
+const ARC_CARD: Record<number, string> = {
+  1: 'bg-blue-700',
+  2: 'bg-teal-600',
+  3: 'bg-orange-700',
+  4: 'bg-amber-600',
+  5: 'bg-green-700',
+}
+
 function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5)
 }
@@ -37,52 +46,58 @@ export default function FlashCard({ word, onResult }: Props) {
     if (selected) return
     setSelected(choice)
     setShowResult(true)
-    const correct = choice === word.en
-    setTimeout(() => onResult(correct), 900)
+    setTimeout(() => onResult(choice === word.en), 900)
   }
 
+  const cardBg = ARC_CARD[word.arc ?? 1] ?? 'bg-navy'
+
   return (
-    <div className="flex flex-col items-center gap-6 w-full max-w-md mx-auto px-4">
+    <div className="flex flex-col items-center gap-5 w-full max-w-md mx-auto px-5">
+
       {/* Word card */}
       <motion.div
         key={word.id}
-        initial={{ scale: 0.92, opacity: 0 }}
+        initial={{ scale: 0.94, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
-        className="w-full bg-gradient-to-br from-indigo-500 to-purple-600 rounded-3xl p-8 text-center shadow-xl"
+        transition={{ duration: 0.2 }}
+        className={`w-full ${cardBg} rounded-3xl p-8 text-center shadow-lg`}
       >
-        <div className="flex items-center justify-center gap-3 mb-3">
-          <span className="text-4xl font-bold text-white">{word.pt}</span>
+        <div className="flex items-center justify-center gap-3 mb-2">
+          <span className="text-4xl font-extrabold text-white tracking-tight">{word.pt}</span>
           <PronounceButton text={word.pt} size="lg" />
         </div>
-        <span className="text-indigo-200 text-sm uppercase tracking-widest">{word.pos}</span>
+        <span className="inline-block bg-white/15 text-white/70 text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full">
+          {word.pos}
+        </span>
       </motion.div>
 
       {/* Example sentence */}
       {word.sentences[0] && (
-        <div className="w-full bg-indigo-50 rounded-2xl px-4 py-3 flex items-start gap-2">
-          <PronounceButton text={word.sentences[0].pt} size="sm" />
+        <div className="w-full bg-white rounded-2xl px-4 py-3.5 flex items-start gap-3 shadow-sm border border-sand">
+          <PronounceButton text={word.sentences[0].pt} size="sm" variant="onLight" />
           <div>
-            <p className="text-indigo-800 text-sm font-medium">{word.sentences[0].pt}</p>
-            <p className="text-gray-400 text-xs mt-0.5">{word.sentences[0].en}</p>
+            <p className="text-navy text-sm font-medium leading-snug">{word.sentences[0].pt}</p>
+            <p className="text-navy/40 text-xs mt-0.5">{word.sentences[0].en}</p>
           </div>
         </div>
       )}
 
-      {/* Choices */}
-      <div className="w-full grid grid-cols-2 gap-3">
+      {/* Answer choices */}
+      <div className="w-full grid grid-cols-2 gap-2.5">
         {choices.map(choice => {
           const isCorrect = choice === word.en
           const isSelected = choice === selected
-          let bg = 'bg-white border-2 border-gray-200 text-gray-700 hover:border-indigo-300'
-          if (showResult && isCorrect) bg = 'bg-emerald-500 border-2 border-emerald-500 text-white'
-          if (showResult && isSelected && !isCorrect) bg = 'bg-red-400 border-2 border-red-400 text-white'
+
+          let cls = 'bg-white border-2 border-sand text-navy font-semibold hover:border-navy/30 transition'
+          if (showResult && isCorrect) cls = 'bg-green-500 border-2 border-green-500 text-white font-semibold'
+          if (showResult && isSelected && !isCorrect) cls = 'bg-red-400 border-2 border-red-400 text-white font-semibold'
 
           return (
             <motion.button
               key={choice}
               onClick={() => handleSelect(choice)}
               whileTap={{ scale: 0.96 }}
-              className={`rounded-2xl px-4 py-3 text-sm font-semibold transition-all duration-200 ${bg} shadow-sm`}
+              className={`rounded-2xl px-4 py-3.5 text-sm ${cls} shadow-sm`}
             >
               {choice}
             </motion.button>
