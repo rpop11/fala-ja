@@ -14,6 +14,7 @@ export default function Home() {
 
   const [mode, setMode] = useState<'landing' | 'login'>('landing')
   const [passphrase, setPassphrase] = useState('')
+  const [showPassphrase, setShowPassphrase] = useState(false)
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
 
@@ -153,15 +154,25 @@ export default function Home() {
               Enter your passphrase to load your progress — or create a new one to start fresh.
             </p>
 
-            <input
-              type="password"
-              value={passphrase}
-              onChange={e => { setPassphrase(e.target.value); setError('') }}
-              onKeyDown={e => e.key === 'Enter' && handleLogin()}
-              placeholder="e.g. mango-rio-fala"
-              className="w-full bg-white/10 border border-white/20 rounded-2xl px-4 py-3.5 text-center text-base text-white placeholder-white/30 focus:outline-none focus:border-gold focus:bg-white/15 transition mb-3"
-              autoFocus
-            />
+            <div className="relative mb-3">
+              <input
+                type={showPassphrase ? 'text' : 'password'}
+                value={passphrase}
+                onChange={e => { setPassphrase(e.target.value); setError('') }}
+                onKeyDown={e => e.key === 'Enter' && handleLogin()}
+                placeholder="e.g. mango-rio-fala"
+                className="w-full bg-white/10 border border-white/20 rounded-2xl px-4 py-3.5 pr-12 text-center text-base text-white placeholder-white/30 focus:outline-none focus:border-gold focus:bg-white/15 transition"
+                autoFocus
+              />
+              <button
+                type="button"
+                onClick={() => setShowPassphrase(v => !v)}
+                className="absolute right-3.5 top-1/2 -translate-y-1/2 text-white/40 hover:text-white/70 transition text-lg"
+                aria-label={showPassphrase ? 'Hide passphrase' : 'Show passphrase'}
+              >
+                {showPassphrase ? '🙈' : '👁️'}
+              </button>
+            </div>
 
             {error && (
               <p className="text-red-400 text-sm text-center mb-3">{error}</p>
