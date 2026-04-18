@@ -40,10 +40,13 @@ Verbs also include `conjugations` (presente / perfeito / imperfeito / futuro × 
 ## Current Status (last updated: 2026-04-14)
 
 ### Word List
-- **375 words total** in `data/words.json`
+- **601 words total** in `data/words.json`
 - Levels 1–4 (Arc 1, São Paulo): 220 words ✅
 - Levels 5–8 (Arc 2, Rio de Janeiro): 155 words ✅
-- Levels 9–20 (Arcs 3–5): **not yet generated** ❌
+- Levels 9–12 (Arc 3, Minas Gerais): 93 words ✅
+- Levels 13–16 (Arc 4, Bahia): 68 words ✅
+- Levels 17–20 (Arc 5, Amazônia): 65 words ✅
+- **All 20 levels populated — first pass complete**
 
 ### Game Modes
 | Mode | Status |
@@ -167,7 +170,7 @@ interface ListenModeProps {
 
 | File | Purpose |
 |------|---------|
-| `data/words.json` | All vocabulary (375 words as of 2026-04-14) |
+| `data/words.json` | All vocabulary (601 words as of 2026-04-14, all 20 levels) |
 | `data/story.json` | Story chapter vignettes (all 20 levels) |
 | `lib/tts.ts` | Browser TTS — `speak(text, slow?)` |
 | `lib/srs.ts` | Spaced repetition logic |
@@ -187,5 +190,5 @@ interface ListenModeProps {
 
 1. Read this file for context.
 2. Check `data/words.json` — count words per level: `cat data/words.json | python3 -c "import json,sys; d=json.load(sys.stdin); from collections import Counter; [print(f'Level {l}: {c}') for l,c in sorted(Counter(w['level'] for w in d).items())]"`
-3. Next task: generate levels 9–12 using `scripts/gen_words_5_8.py` as a template.
-4. After word list complete: build `components/game/ListenMode.tsx`.
+3. Next task: build `components/game/ListenMode.tsx` (Phase 2 above).
+4. After ListenMode: build MatchMode, then Dialogue mode.

@@ -157,8 +157,8 @@ Target: **2,000 most common spoken Brazilian Portuguese words**
 | 2 — Rio de Janeiro | Levels 5–8 | 155 | ✅ |
 | 3 — Minas Gerais | Levels 9–12 | 93 | ✅ |
 | 4 — Bahia | Levels 13–16 | 68 | ✅ |
-| 5 — Amazônia | Levels 17–20 | — | 🔄 |
-| **Total** | | **536 / 2,000** | |
+| 5 — Amazônia | Levels 17–20 | 65 | ✅ |
+| **Total** | | **601 / 2,000** | |
 
 ---
 
@@ -168,8 +168,8 @@ Target: **2,000 most common spoken Brazilian Portuguese words**
 - [x] Flashcard, fill-in-blank, and conjugation modes
 - [x] Story vignette system (all 20 chapters written)
 - [x] Passphrase auth + Supabase sync
-- [x] Word list: levels 1–16 (536 words)
-- [ ] Word list: complete levels 17–20 → 2,000 words
+- [x] Word list: all 20 levels, first pass (601 words)
+- [ ] Word list: expand to 2,000 words
 - [ ] Listen mode
 - [ ] Match mode
 - [ ] Dialogue / conversation mode

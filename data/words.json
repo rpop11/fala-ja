@@ -13456,5 +13456,1565 @@
         "vcs": "pularão"
       }
     }
+  },
+  {
+    "id": 555,
+    "pt": "floresta",
+    "en": "forest / jungle",
+    "pos": "noun",
+    "level": 17,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A floresta amazônica é o pulmão do mundo.",
+        "en": "The Amazon forest is the lung of the world."
+      },
+      {
+        "pt": "Passamos três dias na floresta.",
+        "en": "We spent three days in the forest."
+      }
+    ]
+  },
+  {
+    "id": 556,
+    "pt": "selva",
+    "en": "jungle / rainforest",
+    "pos": "noun",
+    "level": 17,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A selva amazônica abriga milhares de espécies.",
+        "en": "The Amazon jungle harbors thousands of species."
+      },
+      {
+        "pt": "Sobreviver na selva exige muito conhecimento.",
+        "en": "Surviving in the jungle requires a lot of knowledge."
+      }
+    ]
+  },
+  {
+    "id": 557,
+    "pt": "barco",
+    "en": "boat",
+    "pos": "noun",
+    "level": 17,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Viajamos de barco pelo Rio Amazonas.",
+        "en": "We traveled by boat along the Amazon River."
+      },
+      {
+        "pt": "O barco saiu ao amanhecer.",
+        "en": "The boat left at dawn."
+      }
+    ]
+  },
+  {
+    "id": 558,
+    "pt": "canoa",
+    "en": "canoe",
+    "pos": "noun",
+    "level": 17,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "O ribeirinho atravessou o rio de canoa.",
+        "en": "The riverside dweller crossed the river by canoe."
+      },
+      {
+        "pt": "Aprendemos a remar uma canoa.",
+        "en": "We learned to paddle a canoe."
+      }
+    ]
+  },
+  {
+    "id": 559,
+    "pt": "margem",
+    "en": "riverbank / edge",
+    "pos": "noun",
+    "level": 17,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Sentamos na margem do rio ao pôr do sol.",
+        "en": "We sat on the riverbank at sunset."
+      },
+      {
+        "pt": "As casas ficam na margem do igarapé.",
+        "en": "The houses are on the bank of the stream."
+      }
+    ]
+  },
+  {
+    "id": 560,
+    "pt": "igarapé",
+    "en": "small river / stream (Amazonian)",
+    "pos": "noun",
+    "level": 17,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "O igarapé fica escondido na floresta.",
+        "en": "The stream is hidden in the forest."
+      },
+      {
+        "pt": "As crianças nadam no igarapé todo dia.",
+        "en": "The children swim in the stream every day."
+      }
+    ]
+  },
+  {
+    "id": 561,
+    "pt": "pesca",
+    "en": "fishing",
+    "pos": "noun",
+    "level": 17,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A pesca é a principal fonte de renda dos ribeirinhos.",
+        "en": "Fishing is the main source of income for riverside communities."
+      },
+      {
+        "pt": "Acordamos cedo para a pesca.",
+        "en": "We woke up early for fishing."
+      }
+    ]
+  },
+  {
+    "id": 562,
+    "pt": "porto",
+    "en": "port / harbor",
+    "pos": "noun",
+    "level": 17,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "O porto de Manaus é ponto de chegada de muita gente.",
+        "en": "Manaus port is an arrival point for many people."
+      },
+      {
+        "pt": "Os barcos partem do porto ao amanhecer.",
+        "en": "The boats depart from the port at dawn."
+      }
+    ]
+  },
+  {
+    "id": 563,
+    "pt": "natureza",
+    "en": "nature",
+    "pos": "noun",
+    "level": 17,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A natureza da Amazônia é de tirar o fôlego.",
+        "en": "The nature of the Amazon is breathtaking."
+      },
+      {
+        "pt": "Precisamos respeitar a natureza.",
+        "en": "We need to respect nature."
+      }
+    ]
+  },
+  {
+    "id": 564,
+    "pt": "biodiversidade",
+    "en": "biodiversity",
+    "pos": "noun",
+    "level": 17,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A Amazônia tem a maior biodiversidade do planeta.",
+        "en": "The Amazon has the greatest biodiversity on the planet."
+      },
+      {
+        "pt": "A biodiversidade está ameaçada pelo desmatamento.",
+        "en": "Biodiversity is threatened by deforestation."
+      }
+    ]
+  },
+  {
+    "id": 565,
+    "pt": "índigena",
+    "en": "indigenous person / indigenous",
+    "pos": "noun",
+    "level": 17,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Os povos indígenas vivem na Amazônia há milênios.",
+        "en": "Indigenous peoples have lived in the Amazon for millennia."
+      },
+      {
+        "pt": "A cultura indígena tem muito a nos ensinar.",
+        "en": "Indigenous culture has much to teach us."
+      }
+    ]
+  },
+  {
+    "id": 566,
+    "pt": "correnteza",
+    "en": "current (water)",
+    "pos": "noun",
+    "level": 17,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A correnteza do rio era muito forte.",
+        "en": "The river current was very strong."
+      },
+      {
+        "pt": "Nadamos contra a correnteza.",
+        "en": "We swam against the current."
+      }
+    ]
+  },
+  {
+    "id": 567,
+    "pt": "pescar",
+    "en": "to fish",
+    "pos": "verb",
+    "level": 17,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Pescamos o dia todo no rio.",
+        "en": "We fished all day on the river."
+      },
+      {
+        "pt": "Meu avô me ensinou a pescar.",
+        "en": "My grandfather taught me to fish."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "pesco",
+        "tu": "pescas",
+        "ele": "pesca",
+        "nos": "pescamos",
+        "vcs": "pescam"
+      },
+      "perfeito": {
+        "eu": "pesquei",
+        "tu": "pescaste",
+        "ele": "pescou",
+        "nos": "pescamos",
+        "vcs": "pescaram"
+      },
+      "imperfeito": {
+        "eu": "pescava",
+        "tu": "pescavas",
+        "ele": "pescava",
+        "nos": "pescávamos",
+        "vcs": "pescavam"
+      },
+      "futuro": {
+        "eu": "pescarei",
+        "tu": "pescarás",
+        "ele": "pescará",
+        "nos": "pescaremos",
+        "vcs": "pescarão"
+      }
+    }
+  },
+  {
+    "id": 568,
+    "pt": "navegar",
+    "en": "to navigate / to sail",
+    "pos": "verb",
+    "level": 17,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Navegamos pelo Rio Negro por três dias.",
+        "en": "We navigated the Rio Negro for three days."
+      },
+      {
+        "pt": "Sabe navegar de barco?",
+        "en": "Do you know how to navigate a boat?"
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "navego",
+        "tu": "navegas",
+        "ele": "navega",
+        "nos": "navegamos",
+        "vcs": "navegam"
+      },
+      "perfeito": {
+        "eu": "naveguei",
+        "tu": "navegaste",
+        "ele": "navegou",
+        "nos": "navegamos",
+        "vcs": "navegaram"
+      },
+      "imperfeito": {
+        "eu": "navegava",
+        "tu": "navegavas",
+        "ele": "navegava",
+        "nos": "navegávamos",
+        "vcs": "navegavam"
+      },
+      "futuro": {
+        "eu": "navegarei",
+        "tu": "navegarás",
+        "ele": "navegará",
+        "nos": "navegaremos",
+        "vcs": "navegarão"
+      }
+    }
+  },
+  {
+    "id": 569,
+    "pt": "remar",
+    "en": "to row / to paddle",
+    "pos": "verb",
+    "level": 17,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Remamos contra a correnteza.",
+        "en": "We rowed against the current."
+      },
+      {
+        "pt": "Aprendi a remar quando era criança.",
+        "en": "I learned to row when I was a child."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "remo",
+        "tu": "remas",
+        "ele": "rema",
+        "nos": "remamos",
+        "vcs": "remam"
+      },
+      "perfeito": {
+        "eu": "remei",
+        "tu": "remaste",
+        "ele": "remou",
+        "nos": "remamos",
+        "vcs": "remaram"
+      },
+      "imperfeito": {
+        "eu": "remava",
+        "tu": "remavas",
+        "ele": "remava",
+        "nos": "remávamos",
+        "vcs": "remavam"
+      },
+      "futuro": {
+        "eu": "remarei",
+        "tu": "remarás",
+        "ele": "remará",
+        "nos": "remaremos",
+        "vcs": "remarão"
+      }
+    }
+  },
+  {
+    "id": 570,
+    "pt": "afundar",
+    "en": "to sink / to submerge",
+    "pos": "verb",
+    "level": 17,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "O barco quase afundou na tempestade.",
+        "en": "The boat almost sank in the storm."
+      },
+      {
+        "pt": "Não deixa afundar esse projeto.",
+        "en": "Don't let this project sink."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "afundo",
+        "tu": "afundas",
+        "ele": "afunda",
+        "nos": "afundamos",
+        "vcs": "afundam"
+      },
+      "perfeito": {
+        "eu": "afundei",
+        "tu": "afundaste",
+        "ele": "afundou",
+        "nos": "afundamos",
+        "vcs": "afundaram"
+      },
+      "imperfeito": {
+        "eu": "afundava",
+        "tu": "afundavas",
+        "ele": "afundava",
+        "nos": "afundávamos",
+        "vcs": "afundavam"
+      },
+      "futuro": {
+        "eu": "afundarei",
+        "tu": "afundarás",
+        "ele": "afundará",
+        "nos": "afundaremos",
+        "vcs": "afundarão"
+      }
+    }
+  },
+  {
+    "id": 571,
+    "pt": "animal",
+    "en": "animal",
+    "pos": "noun",
+    "level": 18,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A Amazônia tem animais que não existem em nenhum outro lugar.",
+        "en": "The Amazon has animals that don't exist anywhere else."
+      },
+      {
+        "pt": "Meu animal favorito é a onça-pintada.",
+        "en": "My favorite animal is the jaguar."
+      }
+    ]
+  },
+  {
+    "id": 572,
+    "pt": "pássaro",
+    "en": "bird",
+    "pos": "noun",
+    "level": 18,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "O pássaro cantou ao amanhecer.",
+        "en": "The bird sang at dawn."
+      },
+      {
+        "pt": "A Amazônia tem mais de mil espécies de pássaros.",
+        "en": "The Amazon has over a thousand bird species."
+      }
+    ]
+  },
+  {
+    "id": 573,
+    "pt": "cobra",
+    "en": "snake",
+    "pos": "noun",
+    "level": 18,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A cobra ficou imóvel na sombra.",
+        "en": "The snake remained motionless in the shade."
+      },
+      {
+        "pt": "Tem medo de cobra?",
+        "en": "Are you afraid of snakes?"
+      }
+    ]
+  },
+  {
+    "id": 574,
+    "pt": "macaco",
+    "en": "monkey",
+    "pos": "noun",
+    "level": 18,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Os macacos pulavam de galho em galho.",
+        "en": "The monkeys were jumping from branch to branch."
+      },
+      {
+        "pt": "Vimos macacos na beira do rio.",
+        "en": "We saw monkeys at the edge of the river."
+      }
+    ]
+  },
+  {
+    "id": 575,
+    "pt": "onça",
+    "en": "jaguar",
+    "pos": "noun",
+    "level": 18,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A onça-pintada é o maior felino das Américas.",
+        "en": "The jaguar is the largest feline in the Americas."
+      },
+      {
+        "pt": "É raro ver uma onça na natureza.",
+        "en": "It's rare to see a jaguar in the wild."
+      }
+    ]
+  },
+  {
+    "id": 576,
+    "pt": "árvore",
+    "en": "tree",
+    "pos": "noun",
+    "level": 18,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "As árvores da Amazônia chegam a cinquenta metros de altura.",
+        "en": "Amazon trees reach up to fifty meters in height."
+      },
+      {
+        "pt": "Senta-se na sombra da árvore.",
+        "en": "Sit in the shade of the tree."
+      }
+    ]
+  },
+  {
+    "id": 577,
+    "pt": "folha",
+    "en": "leaf / sheet",
+    "pos": "noun",
+    "level": 18,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "As folhas da selva formam um teto verde.",
+        "en": "The jungle leaves form a green roof."
+      },
+      {
+        "pt": "Me dá uma folha de papel?",
+        "en": "Can you give me a sheet of paper?"
+      }
+    ]
+  },
+  {
+    "id": 578,
+    "pt": "solo",
+    "en": "soil / ground",
+    "pos": "noun",
+    "level": 18,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "O solo da floresta é rico em nutrientes.",
+        "en": "Forest soil is rich in nutrients."
+      },
+      {
+        "pt": "O avião pousou com segurança no solo.",
+        "en": "The plane landed safely on the ground."
+      }
+    ]
+  },
+  {
+    "id": 579,
+    "pt": "oxigênio",
+    "en": "oxygen",
+    "pos": "noun",
+    "level": 18,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A Amazônia produz vinte por cento do oxigênio do planeta.",
+        "en": "The Amazon produces twenty percent of the planet's oxygen."
+      },
+      {
+        "pt": "Sem oxigênio, não há vida.",
+        "en": "Without oxygen, there is no life."
+      }
+    ]
+  },
+  {
+    "id": 580,
+    "pt": "desmatamento",
+    "en": "deforestation",
+    "pos": "noun",
+    "level": 18,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "O desmatamento ameaça a sobrevivência da Amazônia.",
+        "en": "Deforestation threatens the survival of the Amazon."
+      },
+      {
+        "pt": "O desmatamento aumentou nos últimos anos.",
+        "en": "Deforestation has increased in recent years."
+      }
+    ]
+  },
+  {
+    "id": 581,
+    "pt": "clima",
+    "en": "climate / weather",
+    "pos": "noun",
+    "level": 18,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "O clima da Amazônia é quente e úmido.",
+        "en": "The Amazon climate is hot and humid."
+      },
+      {
+        "pt": "A mudança climática afeta todo o planeta.",
+        "en": "Climate change affects the whole planet."
+      }
+    ]
+  },
+  {
+    "id": 582,
+    "pt": "úmido",
+    "en": "humid / damp",
+    "pos": "adjective",
+    "level": 18,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "O calor úmido da floresta é intenso.",
+        "en": "The humid heat of the forest is intense."
+      },
+      {
+        "pt": "A roupa ficou úmida com a chuva.",
+        "en": "The clothes got damp from the rain."
+      }
+    ]
+  },
+  {
+    "id": 583,
+    "pt": "selvagem",
+    "en": "wild / untamed",
+    "pos": "adjective",
+    "level": 18,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A natureza selvagem da Amazônia impressiona.",
+        "en": "The wild nature of the Amazon is impressive."
+      },
+      {
+        "pt": "Animais selvagens não devem ser domesticados.",
+        "en": "Wild animals should not be domesticated."
+      }
+    ]
+  },
+  {
+    "id": 584,
+    "pt": "explorar",
+    "en": "to explore",
+    "pos": "verb",
+    "level": 18,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Exploramos trilhas na floresta por dois dias.",
+        "en": "We explored trails in the forest for two days."
+      },
+      {
+        "pt": "Adoro explorar lugares novos.",
+        "en": "I love exploring new places."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "exploro",
+        "tu": "exploras",
+        "ele": "explora",
+        "nos": "exploramos",
+        "vcs": "exploram"
+      },
+      "perfeito": {
+        "eu": "explorei",
+        "tu": "exploraste",
+        "ele": "explorou",
+        "nos": "exploramos",
+        "vcs": "exploraram"
+      },
+      "imperfeito": {
+        "eu": "explorava",
+        "tu": "exploravas",
+        "ele": "explorava",
+        "nos": "explorávamos",
+        "vcs": "exploravam"
+      },
+      "futuro": {
+        "eu": "explorarei",
+        "tu": "explorarás",
+        "ele": "explorará",
+        "nos": "exploraremos",
+        "vcs": "explorarão"
+      }
+    }
+  },
+  {
+    "id": 585,
+    "pt": "proteger",
+    "en": "to protect",
+    "pos": "verb",
+    "level": 18,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Todos temos que proteger o meio ambiente.",
+        "en": "We all have to protect the environment."
+      },
+      {
+        "pt": "Ela protege os filhos com muito amor.",
+        "en": "She protects her children with a lot of love."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "protejo",
+        "tu": "proteges",
+        "ele": "protege",
+        "nos": "protegemos",
+        "vcs": "protegem"
+      },
+      "perfeito": {
+        "eu": "protegi",
+        "tu": "protegeste",
+        "ele": "protegeu",
+        "nos": "protegemos",
+        "vcs": "protegeram"
+      },
+      "imperfeito": {
+        "eu": "protegia",
+        "tu": "protegias",
+        "ele": "protegia",
+        "nos": "protegíamos",
+        "vcs": "protegiam"
+      },
+      "futuro": {
+        "eu": "protegerei",
+        "tu": "protegerás",
+        "ele": "protegerá",
+        "nos": "protegeremos",
+        "vcs": "protegerão"
+      }
+    }
+  },
+  {
+    "id": 586,
+    "pt": "desmatar",
+    "en": "to deforest / to clear land",
+    "pos": "verb",
+    "level": 18,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "É crime desmatar a floresta amazônica.",
+        "en": "It is a crime to deforest the Amazon."
+      },
+      {
+        "pt": "O fazendeiro desmatou ilegalmente.",
+        "en": "The farmer illegally cleared land."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "desmato",
+        "tu": "desmatas",
+        "ele": "desmata",
+        "nos": "desmatamos",
+        "vcs": "desmatam"
+      },
+      "perfeito": {
+        "eu": "desmatei",
+        "tu": "desmataste",
+        "ele": "desmatou",
+        "nos": "desmatamos",
+        "vcs": "desmataram"
+      },
+      "imperfeito": {
+        "eu": "desmatava",
+        "tu": "desmatavas",
+        "ele": "desmatava",
+        "nos": "desmatávamos",
+        "vcs": "desmatavam"
+      },
+      "futuro": {
+        "eu": "desmatarei",
+        "tu": "desmatarás",
+        "ele": "desmatará",
+        "nos": "desmataremos",
+        "vcs": "desmatarão"
+      }
+    }
+  },
+  {
+    "id": 587,
+    "pt": "comunidade",
+    "en": "community",
+    "pos": "noun",
+    "level": 19,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A comunidade ribeirinha vive do rio.",
+        "en": "The riverside community lives from the river."
+      },
+      {
+        "pt": "Cada um contribui para a comunidade.",
+        "en": "Everyone contributes to the community."
+      }
+    ]
+  },
+  {
+    "id": 588,
+    "pt": "aldeia",
+    "en": "village / indigenous settlement",
+    "pos": "noun",
+    "level": 19,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A aldeia indígena fica no coração da floresta.",
+        "en": "The indigenous village is in the heart of the forest."
+      },
+      {
+        "pt": "Visitamos uma aldeia ribeirinha.",
+        "en": "We visited a riverside village."
+      }
+    ]
+  },
+  {
+    "id": 589,
+    "pt": "líder",
+    "en": "leader",
+    "pos": "noun",
+    "level": 19,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "O cacique é o líder da aldeia.",
+        "en": "The chief is the leader of the village."
+      },
+      {
+        "pt": "Um bom líder escuta antes de falar.",
+        "en": "A good leader listens before speaking."
+      }
+    ]
+  },
+  {
+    "id": 590,
+    "pt": "conhecimento",
+    "en": "knowledge",
+    "pos": "noun",
+    "level": 19,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Os indígenas têm conhecimento profundo da floresta.",
+        "en": "Indigenous people have deep knowledge of the forest."
+      },
+      {
+        "pt": "O conhecimento se passa de geração em geração.",
+        "en": "Knowledge is passed from generation to generation."
+      }
+    ]
+  },
+  {
+    "id": 591,
+    "pt": "sabedoria",
+    "en": "wisdom",
+    "pos": "noun",
+    "level": 19,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A sabedoria dos mais velhos é um tesouro.",
+        "en": "The wisdom of the elders is a treasure."
+      },
+      {
+        "pt": "Com o tempo vem a sabedoria.",
+        "en": "With time comes wisdom."
+      }
+    ]
+  },
+  {
+    "id": 592,
+    "pt": "solidariedade",
+    "en": "solidarity",
+    "pos": "noun",
+    "level": 19,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A solidariedade é forte nas comunidades ribeirinhas.",
+        "en": "Solidarity is strong in riverside communities."
+      },
+      {
+        "pt": "Em tempos difíceis, precisamos de solidariedade.",
+        "en": "In difficult times, we need solidarity."
+      }
+    ]
+  },
+  {
+    "id": 593,
+    "pt": "cura",
+    "en": "cure / healing",
+    "pos": "noun",
+    "level": 19,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "O pajé tem o poder de cura.",
+        "en": "The shaman has the power of healing."
+      },
+      {
+        "pt": "A floresta guarda segredos de cura.",
+        "en": "The forest holds secrets of healing."
+      }
+    ]
+  },
+  {
+    "id": 594,
+    "pt": "planta",
+    "en": "plant / herb",
+    "pos": "noun",
+    "level": 19,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "As plantas medicinais da Amazônia são únicas.",
+        "en": "The medicinal plants of the Amazon are unique."
+      },
+      {
+        "pt": "Ele conhece todas as plantas da floresta.",
+        "en": "He knows all the plants in the forest."
+      }
+    ]
+  },
+  {
+    "id": 595,
+    "pt": "ritual",
+    "en": "ritual / ceremony",
+    "pos": "noun",
+    "level": 19,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "O ritual de passagem marca a entrada na vida adulta.",
+        "en": "The rite of passage marks the entry into adult life."
+      },
+      {
+        "pt": "O ritual começou ao pôr do sol.",
+        "en": "The ritual began at sunset."
+      }
+    ]
+  },
+  {
+    "id": 596,
+    "pt": "pajé",
+    "en": "shaman",
+    "pos": "noun",
+    "level": 19,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "O pajé conhece os segredos da floresta.",
+        "en": "The shaman knows the secrets of the forest."
+      },
+      {
+        "pt": "O pajé guia a comunidade com sabedoria.",
+        "en": "The shaman guides the community with wisdom."
+      }
+    ]
+  },
+  {
+    "id": 597,
+    "pt": "cooperação",
+    "en": "cooperation",
+    "pos": "noun",
+    "level": 19,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A cooperação é essencial para sobreviver na floresta.",
+        "en": "Cooperation is essential for surviving in the forest."
+      },
+      {
+        "pt": "Com cooperação, tudo fica mais fácil.",
+        "en": "With cooperation, everything becomes easier."
+      }
+    ]
+  },
+  {
+    "id": 598,
+    "pt": "compartilhar",
+    "en": "to share",
+    "pos": "verb",
+    "level": 19,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Compartilhamos a comida com todos.",
+        "en": "We shared the food with everyone."
+      },
+      {
+        "pt": "Gosto de compartilhar o que sei.",
+        "en": "I like sharing what I know."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "compartilho",
+        "tu": "compartilhas",
+        "ele": "compartilha",
+        "nos": "compartilhamos",
+        "vcs": "compartilham"
+      },
+      "perfeito": {
+        "eu": "compartilhei",
+        "tu": "compartilhaste",
+        "ele": "compartilhou",
+        "nos": "compartilhamos",
+        "vcs": "compartilharam"
+      },
+      "imperfeito": {
+        "eu": "compartilhava",
+        "tu": "compartilhavas",
+        "ele": "compartilhava",
+        "nos": "compartilhávamos",
+        "vcs": "compartilhavam"
+      },
+      "futuro": {
+        "eu": "compartilharei",
+        "tu": "compartilharás",
+        "ele": "compartilhará",
+        "nos": "compartilharemos",
+        "vcs": "compartilharão"
+      }
+    }
+  },
+  {
+    "id": 599,
+    "pt": "curar",
+    "en": "to heal / to cure",
+    "pos": "verb",
+    "level": 19,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "O pajé curou a criança com plantas.",
+        "en": "The shaman healed the child with plants."
+      },
+      {
+        "pt": "O tempo cura tudo.",
+        "en": "Time heals everything."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "curo",
+        "tu": "curas",
+        "ele": "cura",
+        "nos": "curamos",
+        "vcs": "curam"
+      },
+      "perfeito": {
+        "eu": "curei",
+        "tu": "curaste",
+        "ele": "curou",
+        "nos": "curamos",
+        "vcs": "curaram"
+      },
+      "imperfeito": {
+        "eu": "curava",
+        "tu": "curavas",
+        "ele": "curava",
+        "nos": "curávamos",
+        "vcs": "curavam"
+      },
+      "futuro": {
+        "eu": "curarei",
+        "tu": "curarás",
+        "ele": "curará",
+        "nos": "curaremos",
+        "vcs": "curarão"
+      }
+    }
+  },
+  {
+    "id": 600,
+    "pt": "sobreviver",
+    "en": "to survive",
+    "pos": "verb",
+    "level": 19,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "As comunidades indígenas sobrevivem apesar das pressões.",
+        "en": "Indigenous communities survive despite the pressures."
+      },
+      {
+        "pt": "Eles sobreviveram na floresta por semanas.",
+        "en": "They survived in the forest for weeks."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "sobrevivo",
+        "tu": "sobrevives",
+        "ele": "sobrevive",
+        "nos": "sobrevivemos",
+        "vcs": "sobrevivem"
+      },
+      "perfeito": {
+        "eu": "sobrevivi",
+        "tu": "sobreviveste",
+        "ele": "sobreviveu",
+        "nos": "sobrevivemos",
+        "vcs": "sobreviviram"
+      },
+      "imperfeito": {
+        "eu": "sobrevivia",
+        "tu": "sobrevivias",
+        "ele": "sobrevivia",
+        "nos": "sobrevivíamos",
+        "vcs": "sobreviviam"
+      },
+      "futuro": {
+        "eu": "sobreviverei",
+        "tu": "sobreviverás",
+        "ele": "sobreviverá",
+        "nos": "sobreviveremos",
+        "vcs": "sobreviverão"
+      }
+    }
+  },
+  {
+    "id": 601,
+    "pt": "unir",
+    "en": "to unite / to join together",
+    "pos": "verb",
+    "level": 19,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A música une as pessoas.",
+        "en": "Music unites people."
+      },
+      {
+        "pt": "Vamos nos unir por um objetivo comum.",
+        "en": "Let's unite for a common goal."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "uno",
+        "tu": "unes",
+        "ele": "une",
+        "nos": "unimos",
+        "vcs": "unem"
+      },
+      "perfeito": {
+        "eu": "uni",
+        "tu": "uniste",
+        "ele": "uniu",
+        "nos": "unimos",
+        "vcs": "uniram"
+      },
+      "imperfeito": {
+        "eu": "unia",
+        "tu": "unias",
+        "ele": "unia",
+        "nos": "uníamos",
+        "vcs": "uniam"
+      },
+      "futuro": {
+        "eu": "unirei",
+        "tu": "unirás",
+        "ele": "unirá",
+        "nos": "uniremos",
+        "vcs": "unirão"
+      }
+    }
+  },
+  {
+    "id": 602,
+    "pt": "fluência",
+    "en": "fluency",
+    "pos": "noun",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A fluência vem com prática constante.",
+        "en": "Fluency comes with constant practice."
+      },
+      {
+        "pt": "Tenho fluência em inglês e espanhol.",
+        "en": "I'm fluent in English and Spanish."
+      }
+    ]
+  },
+  {
+    "id": 603,
+    "pt": "expressão",
+    "en": "expression / phrase",
+    "pos": "noun",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Aprendi muitas expressões novas hoje.",
+        "en": "I learned many new expressions today."
+      },
+      {
+        "pt": "A expressão 'saudade' não tem tradução exata.",
+        "en": "The expression 'saudade' has no exact translation."
+      }
+    ]
+  },
+  {
+    "id": 604,
+    "pt": "gíria",
+    "en": "slang",
+    "pos": "noun",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "O brasileiro usa muita gíria no dia a dia.",
+        "en": "Brazilians use a lot of slang in daily life."
+      },
+      {
+        "pt": "Aprendi essa gíria dos meus amigos cariocas.",
+        "en": "I learned this slang from my Rio friends."
+      }
+    ]
+  },
+  {
+    "id": 605,
+    "pt": "pronúncia",
+    "en": "pronunciation",
+    "pos": "noun",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A pronúncia do português brasileiro é diferente do europeu.",
+        "en": "The pronunciation of Brazilian Portuguese is different from European."
+      },
+      {
+        "pt": "Estou trabalhando na minha pronúncia.",
+        "en": "I'm working on my pronunciation."
+      }
+    ]
+  },
+  {
+    "id": 606,
+    "pt": "vocabulário",
+    "en": "vocabulary",
+    "pos": "noun",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Tenho um vocabulário de mais de quinhentas palavras.",
+        "en": "I have a vocabulary of more than five hundred words."
+      },
+      {
+        "pt": "Amplie o vocabulário lendo e escutando muito.",
+        "en": "Expand your vocabulary by reading and listening a lot."
+      }
+    ]
+  },
+  {
+    "id": 607,
+    "pt": "gramática",
+    "en": "grammar",
+    "pos": "noun",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A gramática portuguesa tem muitas exceções.",
+        "en": "Portuguese grammar has many exceptions."
+      },
+      {
+        "pt": "Estudo gramática todos os dias.",
+        "en": "I study grammar every day."
+      }
+    ]
+  },
+  {
+    "id": 608,
+    "pt": "significado",
+    "en": "meaning",
+    "pos": "noun",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Qual é o significado dessa palavra?",
+        "en": "What is the meaning of this word?"
+      },
+      {
+        "pt": "A vida tem muitos significados diferentes.",
+        "en": "Life has many different meanings."
+      }
+    ]
+  },
+  {
+    "id": 609,
+    "pt": "contexto",
+    "en": "context",
+    "pos": "noun",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "O contexto muda completamente o significado.",
+        "en": "Context completely changes the meaning."
+      },
+      {
+        "pt": "Entender o contexto cultural é essencial.",
+        "en": "Understanding the cultural context is essential."
+      }
+    ]
+  },
+  {
+    "id": 610,
+    "pt": "comunicação",
+    "en": "communication",
+    "pos": "noun",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "A comunicação é a base de toda relação.",
+        "en": "Communication is the foundation of every relationship."
+      },
+      {
+        "pt": "Boa comunicação resolve muitos problemas.",
+        "en": "Good communication solves many problems."
+      }
+    ]
+  },
+  {
+    "id": 611,
+    "pt": "portanto",
+    "en": "therefore / so",
+    "pos": "adverb",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Estudei muito, portanto passei na prova.",
+        "en": "I studied hard, therefore I passed the test."
+      },
+      {
+        "pt": "O prazo acabou, portanto precisamos agir agora.",
+        "en": "The deadline is up, so we need to act now."
+      }
+    ]
+  },
+  {
+    "id": 612,
+    "pt": "embora",
+    "en": "although / even though",
+    "pos": "adverb",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Embora seja difícil, não vou desistir.",
+        "en": "Although it's difficult, I won't give up."
+      },
+      {
+        "pt": "Fui embora antes da festa acabar.",
+        "en": "I left before the party ended."
+      }
+    ]
+  },
+  {
+    "id": 613,
+    "pt": "além disso",
+    "en": "furthermore / besides that",
+    "pos": "adverb",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Falo português, e além disso, aprendo espanhol.",
+        "en": "I speak Portuguese, and furthermore, I'm learning Spanish."
+      },
+      {
+        "pt": "O hotel é barato, além disso fica no centro.",
+        "en": "The hotel is cheap, besides that it's in the center."
+      }
+    ]
+  },
+  {
+    "id": 614,
+    "pt": "no entanto",
+    "en": "however / nevertheless",
+    "pos": "adverb",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "É difícil, no entanto é possível.",
+        "en": "It's difficult, however it's possible."
+      },
+      {
+        "pt": "Gosto dele, no entanto discordo às vezes.",
+        "en": "I like him, nevertheless I sometimes disagree."
+      }
+    ]
+  },
+  {
+    "id": 615,
+    "pt": "na verdade",
+    "en": "actually / in fact",
+    "pos": "adverb",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Na verdade, eu já sabia disso.",
+        "en": "Actually, I already knew that."
+      },
+      {
+        "pt": "Na verdade, o Brasil tem cinco fusos horários.",
+        "en": "In fact, Brazil has five time zones."
+      }
+    ]
+  },
+  {
+    "id": 616,
+    "pt": "pelo menos",
+    "en": "at least",
+    "pos": "adverb",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Pelo menos você tentou.",
+        "en": "At least you tried."
+      },
+      {
+        "pt": "Estude pelo menos uma hora por dia.",
+        "en": "Study at least one hour per day."
+      }
+    ]
+  },
+  {
+    "id": 617,
+    "pt": "ou seja",
+    "en": "in other words / that is",
+    "pos": "adverb",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Chegamos ao nível vinte, ou seja, você está quase fluente!",
+        "en": "We reached level twenty, in other words, you're almost fluent!"
+      },
+      {
+        "pt": "Não tenho dinheiro, ou seja, não posso ir.",
+        "en": "I have no money, that is, I can't go."
+      }
+    ]
+  },
+  {
+    "id": 618,
+    "pt": "dominar",
+    "en": "to master / to dominate",
+    "pos": "verb",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Domino o inglês, agora quero dominar o português.",
+        "en": "I've mastered English, now I want to master Portuguese."
+      },
+      {
+        "pt": "Ela domina quatro idiomas.",
+        "en": "She masters four languages."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "domino",
+        "tu": "dominas",
+        "ele": "domina",
+        "nos": "dominamos",
+        "vcs": "dominam"
+      },
+      "perfeito": {
+        "eu": "dominei",
+        "tu": "dominaste",
+        "ele": "dominou",
+        "nos": "dominamos",
+        "vcs": "dominaram"
+      },
+      "imperfeito": {
+        "eu": "dominava",
+        "tu": "dominavas",
+        "ele": "dominava",
+        "nos": "dominávamos",
+        "vcs": "dominavam"
+      },
+      "futuro": {
+        "eu": "dominarei",
+        "tu": "dominarás",
+        "ele": "dominará",
+        "nos": "dominaremos",
+        "vcs": "dominarão"
+      }
+    }
+  },
+  {
+    "id": 619,
+    "pt": "alcançar",
+    "en": "to reach / to achieve",
+    "pos": "verb",
+    "level": 20,
+    "arc": 5,
+    "sentences": [
+      {
+        "pt": "Você vai alcançar seus objetivos.",
+        "en": "You will achieve your goals."
+      },
+      {
+        "pt": "Finalmente alcancei a fluência.",
+        "en": "I finally achieved fluency."
+      }
+    ],
+    "conjugations": {
+      "presente": {
+        "eu": "alcanço",
+        "tu": "alcançar",
+        "ele": "alcança",
+        "nos": "alcançamos",
+        "vcs": "alcançam"
+      },
+      "perfeito": {
+        "eu": "alcancei",
+        "tu": "alcançaste",
+        "ele": "alcançou",
+        "nos": "alcançamos",
+        "vcs": "alcançaram"
+      },
+      "imperfeito": {
+        "eu": "alcançava",
+        "tu": "alcançavas",
+        "ele": "alcançava",
+        "nos": "alcançávamos",
+        "vcs": "alcançavam"
+      },
+      "futuro": {
+        "eu": "alcançarei",
+        "tu": "alcançarás",
+        "ele": "alcançará",
+        "nos": "alcançaremos",
+        "vcs": "alcançarão"
+      }
+    }
   }
 ]
